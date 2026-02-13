@@ -79,6 +79,8 @@ const currentNav = navItems.find(item => item.id === activeNav);
         </footer>
       </main>
     </div>
+    <!-- Scroll to top button (mobile only) -->
+    <button class="scroll-top" aria-label="Scroll to top">↑</button>
   <script>
     // Scroll active nav item into view on mobile (within nav only)
     const active = document.querySelector('nav li a.active');
@@ -88,6 +90,17 @@ const currentNav = navItems.find(item => item.id === activeNav);
         const offset = active.offsetLeft - (ul.clientWidth / 2) + (active.offsetWidth / 2);
         ul.scrollLeft = Math.max(0, offset);
       }
+    }
+
+    // Show/hide scroll-to-top button
+    const btn = document.querySelector('.scroll-top');
+    if (btn) {
+      window.addEventListener('scroll', () => {
+        btn.classList.toggle('visible', window.scrollY > 400);
+      }, { passive: true });
+      btn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
     }
   </script>
   </body>

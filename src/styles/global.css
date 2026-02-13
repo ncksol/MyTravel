@@ -493,6 +493,47 @@ footer {
   grid-column: 1 / -1;
 }
 
+/* === Scroll to Top Button === */
+.scroll-top {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .scroll-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: var(--stroke);
+    background: var(--c-paper);
+    color: var(--c-ink);
+    font-size: 1.2rem;
+    box-shadow: 0 4px 16px rgba(89, 62, 46, 0.15);
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .scroll-top.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .scroll-top:active {
+    transform: scale(0.92);
+  }
+}
+
 /* ============================================
    Page-Specific: Itinerary (Timeline)
    Each day section = h2 + content until next h2/hr
