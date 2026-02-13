@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { render, getEntry } from 'astro:content';
+
+const entry = await getEntry('pages', 'restaurants');
+const { Content } = await render(entry!);
+---
+
+<BaseLayout title="Restaurants" activeNav="restaurants">
+  <div class="content-card prose">
+    <Content />
+  </div>
+</BaseLayout>

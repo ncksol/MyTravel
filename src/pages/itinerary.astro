@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { render, getEntry } from 'astro:content';
+
+const entry = await getEntry('pages', 'itinerary');
+const { Content } = await render(entry!);
+---
+
+<BaseLayout title="Itinerary" activeNav="itinerary">
+  <div class="content-card prose">
+    <Content />
+  </div>
+</BaseLayout>

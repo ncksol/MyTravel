@@ -2,7 +2,23 @@
 
 ## Purpose
 
-This repository is a **travel itinerary planning workspace** for a trip to Japan. It is not a software project — there is no code to build, test, or lint. Copilot's role here is to act as a knowledgeable travel planning assistant.
+This repository is a **travel itinerary planning website** for a trip to Japan, built with **Astro** as a static site with Japanese-inspired styling.
+
+## Project Structure
+
+- `src/content/pages/` — Markdown content files (itinerary, restaurants, bookings, budget, practical-info)
+- `src/pages/` — Astro page components that render the markdown content
+- `src/layouts/BaseLayout.astro` — Shared layout with navigation and Japanese-themed design
+- `src/styles/global.css` — Design system (Japanese color palette, typography, components)
+
+## Development
+
+```bash
+npm install        # Install dependencies
+npm run dev        # Start dev server at localhost:4321
+npm run build      # Build static site to dist/
+npm run preview    # Preview built site
+```
 
 ## How Copilot Should Behave
 
@@ -35,6 +51,8 @@ When building or updating itineraries, follow this structure:
 
 ## File Organization
 
-- Keep the main itinerary in a single markdown file for easy reference
-- Use separate files for research, packing lists, booking confirmations, or budget breakdowns if they grow large
-- All files should be plain markdown
+- Content lives in `src/content/pages/` as markdown files
+- Each markdown file is rendered by a corresponding `.astro` page in `src/pages/`
+- Styling is in `src/styles/global.css` — uses CSS custom properties with a Japanese design system
+- When adding new content pages: create the `.md` in `src/content/pages/` and a matching `.astro` page in `src/pages/`
+- Add new pages to the navigation in `src/layouts/BaseLayout.astro`

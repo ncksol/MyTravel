@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Home" activeNav="home">
+  <div class="hero">
+    <h1>🇯🇵 Japan 2026</h1>
+    <p class="subtitle">Tokyo · Hakone · Kyoto · Osaka — September 19 to October 3</p>
+  </div>
+
+  <div class="trip-overview">
+    <div class="stat-item">
+      <div class="stat-value">14</div>
+      <div class="stat-label">Nights</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">4</div>
+      <div class="stat-label">Cities</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">2</div>
+      <div class="stat-label">Travelers</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">£5K</div>
+      <div class="stat-label">Budget</div>
+    </div>
+  </div>
+
+  <div class="nav-grid">
+    <a href="/itinerary" class="nav-card">
+      <span class="card-emoji">🗾</span>
+      <span class="card-title">Itinerary</span>
+      <span class="card-desc">Day-by-day plan with times, transit, and activities across Tokyo, Hakone, Kyoto, and Osaka</span>
+    </a>
+    <a href="/restaurants" class="nav-card">
+      <span class="card-emoji">🍣</span>
+      <span class="card-title">Restaurants</span>
+      <span class="card-desc">Curated food picks — birthday omakase, ramen, izakaya, street food, and depachika</span>
+    </a>
+    <a href="/bookings" class="nav-card">
+      <span class="card-emoji">📋</span>
+      <span class="card-title">Bookings</span>
+      <span class="card-desc">Reservation checklist — what to book now, soon, and on arrival</span>
+    </a>
+    <a href="/budget" class="nav-card">
+      <span class="card-emoji">💰</span>
+      <span class="card-title">Budget</span>
+      <span class="card-desc">Detailed cost breakdown — accommodation, transport, food, activities</span>
+    </a>
+    <a href="/practical-info" class="nav-card">
+      <span class="card-emoji">📖</span>
+      <span class="card-title">Practical Info</span>
+      <span class="card-desc">Weather, etiquette, onsen guide, useful Japanese phrases, emergency contacts</span>
+    </a>
+  </div>
+</BaseLayout>
