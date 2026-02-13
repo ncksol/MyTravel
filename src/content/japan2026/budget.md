@@ -1,49 +1,43 @@
 # Budget Estimate — £5,000 Total (2 People, Excl. Flights)
 
-Exchange rate used: ~¥190 per £1 → Total budget: ~¥950,000
+> Exchange rate: ¥190 = £1 · Total budget: ~¥950,000
 
 ## Accommodation
 
 | Location | Nights | Est. Cost/Night (2 ppl) | Subtotal |
 |----------|--------|------------------------|----------|
-| Tokyo Akasaka (mid-range hotel) | 5 | ¥18,000 | ¥90,000 |
-| Hakone — Yama no Chaya (ryokan, incl. dinner+breakfast) | 2 | ¥80,000 | ¥160,000 |
-| Kyoto (mid-range hotel) | 3 | ¥16,000 | ¥48,000 |
-| Osaka (mid-range hotel) | 2 | ¥15,000 | ¥30,000 |
-| Tokyo return night | 1 | ¥15,000 | ¥15,000 |
-| **Accommodation Total** | **13** | | **¥343,000** |
-
-*~£1,805*
+| Tokyo Akasaka (mid-range hotel) | 5 | ¥18,000 · £95 | ¥90,000 · £474 |
+| Hakone — Yama no Chaya (ryokan, incl. dinner+breakfast) | 2 | ¥80,000 · £421 | ¥160,000 · £842 |
+| Kyoto (mid-range hotel) | 3 | ¥16,000 · £84 | ¥48,000 · £253 |
+| Osaka (mid-range hotel) | 2 | ¥15,000 · £79 | ¥30,000 · £158 |
+| Tokyo return night | 1 | ¥15,000 · £79 | ¥15,000 · £79 |
+| **Accommodation Total** | **13** | | **¥343,000 · £1,805** |
 
 ## Transport
 
 | Route | Cost (2 ppl) |
 |-------|-------------|
-| Airport transfers (HND ↔ Akasaka × 2) | ¥2,800 |
-| Romancecar Tokyo→Hakone (round trip to Odawara) | ¥9,880 |
-| Shinkansen Odawara→Kyoto | ¥22,000 |
-| Shinkansen Shin-Osaka→Tokyo | ¥27,740 |
-| Kyoto→Nara→Osaka trains | ¥2,580 |
-| Hakone Freepass (loop day) | ¥12,200 |
-| Local transit (Metro/bus, ~¥1,000 pp/day × 11 days) | ¥22,000 |
-| Luggage forwarding (takkyubin) | ¥4,000 |
-| **Transport Total** | **¥103,200** |
-
-*~£543*
+| Airport transfers (HND ↔ Akasaka × 2) | ¥2,800 · £15 |
+| Romancecar Tokyo→Hakone (round trip to Odawara) | ¥9,880 · £52 |
+| Shinkansen Odawara→Kyoto | ¥22,000 · £116 |
+| Shinkansen Shin-Osaka→Tokyo | ¥27,740 · £146 |
+| Kyoto→Nara→Osaka trains | ¥2,580 · £14 |
+| Hakone Freepass (loop day) | ¥12,200 · £64 |
+| Local transit (Metro/bus, ~¥1,000 pp/day × 11 days) | ¥22,000 · £116 |
+| Luggage forwarding (takkyubin) | ¥4,000 · £21 |
+| **Transport Total** | **¥103,200 · £543** |
 
 ## Food
 
 | Category | Est. Daily (2 ppl) | Days | Subtotal |
 |----------|-------------------|------|----------|
-| Breakfast (mix of hotel, konbini, bakery) | ¥1,500 | 13 | ¥19,500 |
-| Lunch (casual — ramen, market food, etc.) | ¥4,000 | 13 | ¥52,000 |
-| Dinner (regular nights — izakaya, restaurants) | ¥8,000 | 10 | ¥80,000 |
-| 🎂 Birthday dinner (omakase, 2 ppl) | — | 1 | ¥70,000 |
-| Kyoto kaiseki splurge dinner | — | 1 | ¥16,000 |
-| Snacks, drinks, coffee, konbini | ¥1,500 | 14 | ¥21,000 |
-| **Food Total** | | | **¥258,500** |
-
-*~£1,360*
+| Breakfast (mix of hotel, konbini, bakery) | ¥1,500 · £8 | 13 | ¥19,500 · £103 |
+| Lunch (casual — ramen, market food, etc.) | ¥4,000 · £21 | 13 | ¥52,000 · £274 |
+| Dinner (regular nights — izakaya, restaurants) | ¥8,000 · £42 | 10 | ¥80,000 · £421 |
+| 🎂 Birthday dinner (omakase, 2 ppl) | — | 1 | ¥70,000 · £368 |
+| Kyoto kaiseki splurge dinner | — | 1 | ¥16,000 · £84 |
+| Snacks, drinks, coffee, konbini | ¥1,500 · £8 | 14 | ¥21,000 · £111 |
+| **Food Total** | | | **¥258,500 · £1,360** |
 
 Note: Ryokan dinners & breakfasts (4 meals for 2) are included in accommodation cost above.
 
@@ -51,33 +45,29 @@ Note: Ryokan dinners & breakfasts (4 meals for 2) are included in accommodation 
 
 | Item | Cost (2 ppl) |
 |------|-------------|
-| Tokyo National Museum | ¥2,000 |
-| Shibuya Sky | ¥4,000 |
-| TeamLab Borderless | ¥7,600 |
-| Shinjuku Gyoen | ¥1,000 |
-| Kiyomizu-dera | ¥800 |
-| Ginkaku-ji | ¥1,000 |
-| Kinkaku-ji | ¥1,000 |
-| Tenryu-ji | ¥1,000 |
-| Todai-ji (Nara) | ¥1,200 |
-| Osaka Castle | ¥1,200 |
-| Hakone Open-Air Museum | ¥3,200 |
-| Gekkeikan Sake Museum | ¥800 |
-| Various small temples | ¥3,000 |
-| **Activities Total** | **¥27,800** |
-
-*~£146*
+| Tokyo National Museum | ¥2,000 · £11 |
+| Shibuya Sky | ¥4,000 · £21 |
+| TeamLab Borderless | ¥7,600 · £40 |
+| Shinjuku Gyoen | ¥1,000 · £5 |
+| Kiyomizu-dera | ¥800 · £4 |
+| Ginkaku-ji | ¥1,000 · £5 |
+| Kinkaku-ji | ¥1,000 · £5 |
+| Tenryu-ji | ¥1,000 · £5 |
+| Todai-ji (Nara) | ¥1,200 · £6 |
+| Osaka Castle | ¥1,200 · £6 |
+| Hakone Open-Air Museum | ¥3,200 · £17 |
+| Gekkeikan Sake Museum | ¥800 · £4 |
+| Various small temples | ¥3,000 · £16 |
+| **Activities Total** | **¥27,800 · £146** |
 
 ## Miscellaneous
 
 | Item | Cost |
 |------|------|
-| eSIM / pocket WiFi (14 days) | ¥5,000 |
-| Souvenirs & shopping | ¥40,000 |
-| Cash buffer / emergencies | ¥20,000 |
-| **Misc Total** | **¥65,000** |
-
-*~£342*
+| eSIM / pocket WiFi (14 days) | ¥5,000 · £26 |
+| Souvenirs & shopping | ¥40,000 · £211 |
+| Cash buffer / emergencies | ¥20,000 · £105 |
+| **Misc Total** | **¥65,000 · £342** |
 
 ---
 
