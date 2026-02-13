@@ -3,84 +3,81 @@ interface Props {
   title: string;
   activeNav?: string;
   tripPrefix?: string;
-  tripName?: string;
-  tripEmoji?: string;
+  tripTitle?: string;
+  tripSubtitle?: string;
   tripFooter?: string;
-  themeCSS?: string;
 }
 
 const {
   title,
   activeNav,
   tripPrefix = '/japan2026',
-  tripName = 'Japan 2026',
-  tripEmoji = '⛩️',
-  tripFooter = '🌸 Japan Trip — September 19 to October 3, 2026 🌸',
-  themeCSS = '',
+  tripTitle = 'Japan 2026',
+  tripSubtitle = 'Tokyo & Kyoto',
+  tripFooter = 'japan 2026 · built for travelers',
 } = Astro.props;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const prefix = `${base}${tripPrefix}`;
 
 const navItems = [
-  { href: `${prefix}`, label: '🏠 Home', id: 'home' },
-  { href: `${prefix}/itinerary`, label: '🗾 Itinerary', id: 'itinerary' },
-  { href: `${prefix}/restaurants`, label: '🍣 Restaurants', id: 'restaurants' },
-  { href: `${prefix}/bookings`, label: '📋 Bookings', id: 'bookings' },
-  { href: `${prefix}/budget`, label: '💰 Budget', id: 'budget' },
-  { href: `${prefix}/practical-info`, label: '📖 Practical Info', id: 'practical-info' },
+  { href: `${prefix}`, label: 'Overview', id: 'home', kanji: '概要' },
+  { href: `${prefix}/itinerary`, label: 'Itinerary', id: 'itinerary', kanji: '日程' },
+  { href: `${prefix}/restaurants`, label: 'Restaurants', id: 'restaurants', kanji: '食事' },
+  { href: `${prefix}/bookings`, label: 'Bookings', id: 'bookings', kanji: '予約' },
+  { href: `${prefix}/budget`, label: 'Budget', id: 'budget', kanji: '予算' },
+  { href: `${prefix}/practical-info`, label: 'Practical Info', id: 'practical-info', kanji: '情報' },
 ];
+
+const currentNav = navItems.find(item => item.id === activeNav);
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} — {tripName}</title>
+    <title>{title} — {tripTitle}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-    {themeCSS && <style set:html={themeCSS} />}
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div class="header-inner">
-        <a href={`${base}/`} class="back-link" title="All Travels">←</a>
-        <a href={`${prefix}`} class="logo">
-          <span class="torii">{tripEmoji}</span>
-          <span class="logo-text">{tripName}</span>
-        </a>
-        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <div class="wrapper">
+      <aside>
+        <a href={`${base}/`} class="back-link">← All Travels</a>
+        <h1 class="sidebar-title">
+          <span class="subtitle">{tripSubtitle}</span>
+          {tripTitle.split(' ')[0]}<br />{tripTitle.split(' ').slice(1).join(' ')}
+        </h1>
         <nav>
-          {navItems.map((item) => (
-            <a href={item.href} class:list={[{ active: activeNav === item.id }]}>
-              {item.label}
-            </a>
-          ))}
+          <ul>
+            {navItems.map((item) => (
+              <li>
+                <a href={item.href} class:list={[{ active: activeNav === item.id }]}>
+                  {item.label}
+                  <div class="nav-curve"></div>
+                </a>
+              </li>
+            ))}
+          </ul>
         </nav>
-      </div>
-    </header>
+      </aside>
 
-    <main>
-      <div class="container">
+      <main>
+        {currentNav && activeNav !== 'home' && (
+          <div class="section-header">
+            <h2>{currentNav.label}</h2>
+            <span class="kanji-stamp">{currentNav.kanji}</span>
+          </div>
+        )}
+
         <slot />
-      </div>
-    </main>
 
-    <footer>
-      <div class="wave-pattern"></div>
-      <div class="footer-inner">
-        <p>{tripFooter}</p>
-      </div>
-    </footer>
-
-    <script>
-      const toggle = document.querySelector('.menu-toggle');
-      const nav = document.querySelector('nav');
-      toggle?.addEventListener('click', () => {
-        nav?.classList.toggle('open');
-      });
-    </script>
+        <footer>
+          {tripFooter}
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
 

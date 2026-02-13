@@ -1,201 +1,203 @@
 /* ============================================
-   Japan Travel — Japanese-Inspired Design System
+   Japan Travel — Warm Paper Design System
+   Based on Nihon Trip Planner mockup
    ============================================ */
 
-/* === Color Palette === */
 :root {
-  --jp-indigo: #1B2838;        /* 藍色 — deep navy/indigo */
-  --jp-indigo-light: #2D4059;
-  --jp-vermillion: #C73E1D;    /* 朱色 — vermillion red */
-  --jp-vermillion-light: #E85D3A;
-  --jp-cream: #FAF3E0;         /* 和紙 — washi paper */
-  --jp-cream-dark: #F0E6CE;
-  --jp-gold: #C9A96E;          /* 金色 — gold */
-  --jp-gold-light: #D4BC8B;
-  --jp-green: #4A7C59;         /* 抹茶 — matcha green */
-  --jp-green-light: #6B9F7E;
-  --jp-charcoal: #2C2C2C;      /* 墨 — sumi ink */
-  --jp-stone: #8B8B83;         /* 石 — stone gray */
-  --jp-sakura: #F4C2C2;        /* 桜 — cherry blossom pink */
-  --jp-white: #FEFEFE;
+  --c-bg: #F7F4EE;
+  --c-card: #E4DCCF;
+  --c-card-hover: #EBE5D9;
+  --c-ink: #593E2E;
+  --c-ink-light: rgba(89, 62, 46, 0.7);
+  --c-ink-faint: rgba(89, 62, 46, 0.2);
+  --c-paper: #FFFFFF;
 
-  --font-body: 'Inter', -apple-system, sans-serif;
-  --font-jp: 'Noto Serif JP', 'Georgia', serif;
-
-  --shadow-shoji: 0 1px 3px rgba(27, 40, 56, 0.08), 0 4px 12px rgba(27, 40, 56, 0.05);
-  --shadow-raised: 0 2px 8px rgba(27, 40, 56, 0.12), 0 8px 24px rgba(27, 40, 56, 0.08);
-  --radius: 6px;
-  --max-width: 900px;
+  --radius-outer: 24px;
+  --radius-inner: 12px;
+  --stroke: 1.5px solid var(--c-ink);
+  --shadow-soft: 0 10px 30px -5px rgba(89, 62, 46, 0.08);
+  --font-main: 'Zen Maru Gothic', sans-serif;
+  --max-width: 1200px;
 }
 
-/* === Reset & Base === */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-html {
-  font-size: 16px;
-  scroll-behavior: smooth;
-}
+html { font-size: 16px; scroll-behavior: smooth; }
 
 body {
-  font-family: var(--font-body);
-  background-color: var(--jp-cream);
-  color: var(--jp-charcoal);
-  line-height: 1.7;
+  background-color: var(--c-bg);
+  color: var(--c-ink);
+  font-family: var(--font-main);
   min-height: 100vh;
+  padding: 40px;
   display: flex;
-  flex-direction: column;
-  /* Seigaiha wave pattern overlay */
-  background-image:
-    radial-gradient(circle at 100% 150%, var(--jp-cream-dark) 24%, var(--jp-cream) 24%,
-    var(--jp-cream) 28%, var(--jp-cream-dark) 28%, var(--jp-cream-dark) 36%,
-    var(--jp-cream) 36%, var(--jp-cream) 40%, transparent 40%, transparent),
-    radial-gradient(circle at 0 150%, var(--jp-cream-dark) 24%, var(--jp-cream) 24%,
-    var(--jp-cream) 28%, var(--jp-cream-dark) 28%, var(--jp-cream-dark) 36%,
-    var(--jp-cream) 36%, var(--jp-cream) 40%, transparent 40%, transparent),
-    radial-gradient(circle at 50% 100%, var(--jp-cream-dark) 10%, var(--jp-cream) 10%,
-    var(--jp-cream) 23%, var(--jp-cream-dark) 23%, var(--jp-cream-dark) 30%,
-    var(--jp-cream) 30%, var(--jp-cream) 43%, transparent 43%, transparent);
-  background-size: 80px 40px;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* === Header === */
-header {
-  background: var(--jp-indigo);
-  color: var(--jp-cream);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 2px 12px rgba(27, 40, 56, 0.3);
-}
-
-.header-inner {
+/* === Wrapper: Sidebar + Main === */
+.wrapper {
   max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 64px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* === Sidebar === */
+aside {
+  position: sticky;
+  top: 40px;
+}
+
+.sidebar-title {
+  font-size: 4rem;
+  line-height: 0.9;
+  margin-bottom: 40px;
+  letter-spacing: -0.02em;
+  font-weight: 900;
+  color: var(--c-ink);
+}
+
+.sidebar-title .subtitle {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  opacity: 0.7;
 }
 
 .back-link {
-  color: var(--jp-cream);
+  display: inline-block;
   text-decoration: none;
-  font-size: 1.2rem;
-  opacity: 0.6;
+  color: var(--c-ink);
+  font-size: 0.85rem;
+  opacity: 0.5;
+  margin-bottom: 16px;
   transition: opacity 0.2s;
-  margin-right: 0.5rem;
 }
 
 .back-link:hover { opacity: 1; }
 
-.logo {
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+nav li a {
   text-decoration: none;
-  color: var(--jp-cream);
+  color: var(--c-ink);
+  font-size: 1.25rem;
+  padding: 12px 20px;
+  border-radius: var(--radius-inner);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
 }
 
-.torii { font-size: 1.5rem; }
-
-.logo-text {
-  font-family: var(--font-jp);
-  font-size: 1.3rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+nav li a:hover,
+nav li a.active {
+  background-color: var(--c-card);
+  border: var(--stroke);
 }
 
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  color: var(--jp-cream);
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0.25rem;
+.nav-curve {
+  width: 20px;
+  height: 20px;
+  border-top: var(--stroke);
+  border-right: var(--stroke);
+  border-top-right-radius: 12px;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: opacity 0.3s ease;
 }
 
-nav {
-  display: flex;
-  gap: 0.25rem;
-}
-
-nav a {
-  color: var(--jp-cream);
-  text-decoration: none;
-  padding: 0.4rem 0.75rem;
-  border-radius: var(--radius);
-  font-size: 0.85rem;
-  font-weight: 500;
-  transition: background 0.2s, color 0.2s;
-  white-space: nowrap;
-}
-
-nav a:hover {
-  background: rgba(250, 243, 224, 0.15);
-}
-
-nav a.active {
-  background: var(--jp-vermillion);
-  color: var(--jp-white);
+nav li a:hover .nav-curve,
+nav li a.active .nav-curve {
+  opacity: 1;
 }
 
 /* === Main Content === */
 main {
-  flex: 1;
-  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  min-width: 0;
 }
 
-.container {
-  max-width: var(--max-width);
-  margin: 0 auto;
+/* === Section Headers with Kanji Stamp === */
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: var(--stroke);
 }
 
-/* === Content Card (shoji screen style) === */
-.content-card {
-  background: var(--jp-white);
-  border: 1px solid var(--jp-cream-dark);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-shoji);
-  padding: 2.5rem;
-  margin-bottom: 1.5rem;
-}
-
-/* === Typography === */
-.content-card h1,
+.section-header h2,
 .prose h1 {
-  font-family: var(--font-jp);
   font-size: 2rem;
-  color: var(--jp-indigo);
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 3px solid var(--jp-vermillion);
+  font-weight: 700;
+  font-family: var(--font-main);
+  color: var(--c-ink);
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
-.content-card h2,
-.prose h2 {
-  font-family: var(--font-jp);
+.kanji-stamp {
   font-size: 1.5rem;
-  color: var(--jp-indigo);
-  margin: 2rem 0 0.75rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--jp-cream-dark);
+  border: var(--stroke);
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 400;
 }
 
-.content-card h3,
+/* === Content Card (Prose) === */
+.content-card {
+  background-color: var(--c-paper);
+  border-radius: var(--radius-outer);
+  padding: 40px;
+  border: var(--stroke);
+  box-shadow: var(--shadow-soft);
+}
+
+/* === Prose Typography === */
+.prose h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: var(--stroke);
+}
+
+.prose h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: var(--font-main);
+  color: var(--c-ink);
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--c-ink-faint);
+}
+
 .prose h3 {
-  font-family: var(--font-jp);
-  font-size: 1.2rem;
-  color: var(--jp-indigo-light);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--c-ink);
   margin: 1.5rem 0 0.5rem;
 }
 
-.content-card h4,
 .prose h4 {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--jp-vermillion);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--c-ink);
   margin: 1.25rem 0 0.4rem;
 }
 
@@ -204,17 +206,20 @@ main {
 }
 
 .prose strong {
-  color: var(--jp-indigo);
+  font-weight: 700;
+  color: var(--c-ink);
 }
 
 .prose a {
-  color: var(--jp-vermillion);
+  color: var(--c-ink);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--c-ink-faint);
+  transition: text-decoration-color 0.2s;
 }
 
 .prose a:hover {
-  color: var(--jp-vermillion-light);
+  text-decoration-color: var(--c-ink);
 }
 
 /* === Lists === */
@@ -224,77 +229,77 @@ main {
 }
 
 .prose li {
-  margin: 0.3rem 0;
+  margin: 0.4rem 0;
 }
 
 .prose li::marker {
-  color: var(--jp-vermillion);
+  color: var(--c-ink-light);
 }
 
-/* === Tables (budget, bookings) === */
+/* === Tables === */
 .prose table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0;
-  font-size: 0.9rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
   overflow-x: auto;
   display: block;
 }
 
 .prose thead {
-  background: var(--jp-indigo);
-  color: var(--jp-cream);
+  background: var(--c-card);
 }
 
 .prose th {
-  font-weight: 600;
+  font-weight: 700;
   text-align: left;
-  padding: 0.6rem 0.75rem;
-  font-size: 0.8rem;
+  padding: 10px 14px;
+  font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+  border-bottom: var(--stroke);
 }
 
 .prose td {
-  padding: 0.5rem 0.75rem;
-  border-bottom: 1px solid var(--jp-cream-dark);
+  padding: 10px 14px;
+  border-bottom: 1px dashed var(--c-ink-faint);
 }
 
 .prose tbody tr:hover {
-  background: rgba(250, 243, 224, 0.5);
+  background: var(--c-card-hover);
 }
 
 .prose tbody tr:last-child td {
-  border-bottom: 2px solid var(--jp-indigo);
+  border-bottom: var(--stroke);
 }
 
 /* === Blockquotes === */
 .prose blockquote {
-  border-left: 4px solid var(--jp-gold);
-  background: rgba(201, 169, 110, 0.08);
-  padding: 0.75rem 1rem;
-  margin: 1rem 0;
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border-left: 3px solid var(--c-ink);
+  background: var(--c-card);
+  padding: 16px 20px;
+  margin: 1.5rem 0;
+  border-radius: 0 var(--radius-inner) var(--radius-inner) 0;
   font-style: italic;
-  color: var(--jp-indigo-light);
+  color: var(--c-ink-light);
 }
 
-/* === Code blocks === */
+/* === Code === */
 .prose code {
-  background: var(--jp-cream-dark);
-  padding: 0.15rem 0.4rem;
-  border-radius: 3px;
+  background: var(--c-card);
+  padding: 2px 6px;
+  border-radius: 4px;
   font-size: 0.85em;
-  color: var(--jp-indigo);
+  color: var(--c-ink);
 }
 
 .prose pre {
-  background: var(--jp-indigo) !important;
-  color: var(--jp-cream) !important;
-  padding: 1rem 1.25rem;
-  border-radius: var(--radius);
+  background: var(--c-ink) !important;
+  color: var(--c-bg) !important;
+  padding: 20px 24px;
+  border-radius: var(--radius-inner);
   overflow-x: auto;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   line-height: 1.5;
 }
 
@@ -304,164 +309,145 @@ main {
   color: inherit;
 }
 
-/* === Horizontal Rule (decorative) === */
+/* === Horizontal Rules === */
 .prose hr {
   border: none;
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--jp-gold), var(--jp-vermillion), var(--jp-gold), transparent);
-  margin: 2rem 0;
+  height: 1.5px;
+  background: var(--c-ink);
+  margin: 2.5rem 0;
+  opacity: 0.15;
 }
 
-/* === Footer === */
-footer {
-  background: var(--jp-indigo);
-  color: var(--jp-cream);
-  text-align: center;
-  margin-top: auto;
-}
-
-.wave-pattern {
-  height: 24px;
-  background: var(--jp-indigo);
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 24'%3E%3Cpath d='M0 24 C200 0 400 0 600 24 C800 0 1000 0 1200 24' fill='%23fff'/%3E%3C/svg%3E");
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 24'%3E%3Cpath d='M0 24 C200 0 400 0 600 24 C800 0 1000 0 1200 24' fill='%23fff'/%3E%3C/svg%3E");
-  mask-size: 600px 24px;
-  -webkit-mask-size: 600px 24px;
-  mask-repeat: repeat-x;
-  -webkit-mask-repeat: repeat-x;
-  transform: translateY(1px);
-}
-
-.footer-inner {
-  padding: 1.25rem 1.5rem;
-  font-family: var(--font-jp);
-  font-size: 0.9rem;
-  letter-spacing: 0.03em;
-}
-
-/* === Home Page === */
+/* === Home Page Cards === */
 .hero {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 1rem 0 0;
 }
 
 .hero h1 {
-  font-family: var(--font-jp);
   font-size: 2.5rem;
-  color: var(--jp-indigo);
   border: none;
   margin-bottom: 0.5rem;
 }
 
 .hero .subtitle {
   font-size: 1.1rem;
-  color: var(--jp-stone);
-  margin-bottom: 2.5rem;
+  opacity: 0.7;
+  margin-bottom: 2rem;
 }
 
-.nav-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin-top: 1.5rem;
-}
-
-.nav-card {
-  background: var(--jp-white);
-  border: 1px solid var(--jp-cream-dark);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-shoji);
-  padding: 1.5rem;
-  text-decoration: none;
-  color: var(--jp-charcoal);
-  transition: box-shadow 0.2s, transform 0.15s, border-color 0.2s;
-  display: block;
-}
-
-.nav-card:hover {
-  box-shadow: var(--shadow-raised);
-  transform: translateY(-2px);
-  border-color: var(--jp-gold);
-}
-
-.nav-card .card-emoji {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  display: block;
-}
-
-.nav-card .card-title {
-  font-family: var(--font-jp);
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--jp-indigo);
-  margin-bottom: 0.3rem;
-}
-
-.nav-card .card-desc {
-  font-size: 0.85rem;
-  color: var(--jp-stone);
-  line-height: 1.5;
-}
-
-/* Trip overview banner */
 .trip-overview {
-  background: var(--jp-white);
-  border: 1px solid var(--jp-cream-dark);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-shoji);
-  padding: 1.5rem 2rem;
+  background: var(--c-card);
+  border-radius: var(--radius-outer);
+  padding: 24px 32px;
   margin: 1.5rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
   text-align: center;
 }
 
 .stat-item .stat-value {
-  font-family: var(--font-jp);
   font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--jp-vermillion);
+  font-weight: 900;
+  color: var(--c-ink);
 }
 
 .stat-item .stat-label {
   font-size: 0.8rem;
-  color: var(--jp-stone);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 1.5rem;
+}
+
+.nav-card {
+  background: var(--c-card);
+  border-radius: var(--radius-outer);
+  padding: 24px;
+  text-decoration: none;
+  color: var(--c-ink);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-card:hover {
+  border: var(--stroke);
+  background: var(--c-card-hover);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+}
+
+.nav-card .card-emoji {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.nav-card .card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.nav-card .card-desc {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+/* === Footer === */
+footer {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  padding-bottom: 40px;
+  grid-column: 1 / -1;
 }
 
 /* === Responsive === */
-@media (max-width: 768px) {
-  .menu-toggle { display: block; }
+@media (max-width: 900px) {
+  body { padding: 20px; }
 
-  nav {
-    display: none;
-    position: absolute;
-    top: 64px;
-    left: 0;
-    right: 0;
-    background: var(--jp-indigo);
-    flex-direction: column;
-    padding: 0.5rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  .wrapper {
+    grid-template-columns: 1fr;
   }
 
-  nav.open { display: flex; }
-
-  nav a {
-    padding: 0.6rem 1rem;
-    font-size: 0.95rem;
+  aside {
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
   }
 
-  .header-inner { position: relative; }
+  .sidebar-title {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+  }
 
-  .content-card { padding: 1.5rem; }
+  nav ul {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    gap: 8px;
+  }
 
-  .hero h1 { font-size: 2rem; }
+  nav li a {
+    font-size: 1rem;
+    padding: 8px 14px;
+    white-space: nowrap;
+  }
 
-  .prose table { font-size: 0.8rem; }
+  .nav-grid { grid-template-columns: 1fr; }
 
-  .prose th, .prose td { padding: 0.4rem 0.5rem; }
+  .content-card { padding: 24px; }
+
+  .prose table { font-size: 0.85rem; }
 }
