@@ -253,32 +253,28 @@ section {
 }
 
 .prose li {
-  display: flex;
-  gap: 12px;
+  position: relative;
+  padding-left: 24px;
   margin-bottom: 8px;
-  align-items: baseline;
-  padding-left: 0;
 }
 
 .prose li::before {
   content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
   width: 12px;
-  min-width: 12px;
   height: 2px;
   background-color: var(--c-ink);
-  display: inline-block;
-  margin-top: 0.7em;
-  flex-shrink: 0;
 }
 
 .prose li:first-child::before {
   width: 10px;
-  min-width: 10px;
   height: 10px;
   border: 1.5px solid var(--c-ink);
   border-radius: 50%;
   background: none;
-  margin-top: 0.4em;
+  top: 0.35em;
 }
 
 /* Nested lists */
