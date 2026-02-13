@@ -5,92 +5,36 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <LandingLayout title="My Travels">
-  <aside class="landing-sidebar">
-    <div class="nav-pill"><span>Personal Archive</span></div>
+  <div class="landing-header">
+    <h1>My Travels</h1>
+    <p class="tagline">A collection of journeys, itineraries, and memories from around the world.</p>
+  </div>
 
-    <h1 class="landing-title">My<br />Travels</h1>
+  <div class="divider"></div>
 
-    <p class="landing-description">
-      A collection of journeys, itineraries, and memories from around the world.
-    </p>
+  <p class="section-label">Journeys</p>
 
-    <!-- Timeline Slider -->
-    <div class="timeline-container">
-      <div class="timeline-labels">
-        <span>Timeline</span>
-        <span>2025 — 2026</span>
+  <div class="travel-grid">
+    <a href={`${base}/japan2026/`} class="travel-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 21H21" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M5 21V7L12 3L19 7V21" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M9 10C9 10 10 9 12 9C14 9 15 10 15 10" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
       </div>
-      <div class="timeline-track" id="timeline-track">
-        <div class="timeline-progress" id="timeline-progress"></div>
-        <div class="timeline-thumb" id="timeline-thumb">
-          <div class="timeline-thumb-line"></div>
+      <div class="card-content">
+        <div class="card-status">
+          <div class="status-dot"></div>
+          <span>Planned</span>
         </div>
-        <div class="timeline-tooltip" id="timeline-tooltip">Oct</div>
+        <span class="card-title">Japan</span>
+        <span class="card-subtitle">Autumn 2026, 14 Days</span>
       </div>
-    </div>
-
-    <!-- Map Toggle -->
-    <div class="toggle-container">
-      <span class="toggle-label">View Map</span>
-      <div class="toggle-switch" id="map-toggle">
-        <div class="toggle-knob"></div>
-      </div>
-    </div>
-  </aside>
-
-  <main>
-    <div class="travel-grid">
-      <a href={`${base}/japan2026/`} class="travel-card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 21H21" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M5 21V7L12 3L19 7V21" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M9 10C9 10 10 9 12 9C14 9 15 10 15 10" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </div>
-        <div class="card-content">
-          <div class="card-status">
-            <div class="status-dot"></div>
-            <span>Planned</span>
-          </div>
-          <span class="card-title">Japan</span>
-          <span class="card-subtitle">Autumn 2026, 14 Days</span>
-        </div>
-      </a>
-    </div>
-  </main>
+    </a>
+  </div>
 
   <footer class="landing-footer">
     <p>Built with Astro</p>
   </footer>
 </LandingLayout>
-
-<script>
-  // Timeline slider interaction
-  const track = document.getElementById('timeline-track');
-  const progress = document.getElementById('timeline-progress');
-  const thumb = document.getElementById('timeline-thumb');
-  const tooltip = document.getElementById('timeline-tooltip');
-
-  if (track && progress && thumb && tooltip) {
-    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
-    track.addEventListener('mousemove', (e) => {
-      const rect = track.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const pct = Math.min(Math.max((x / rect.width) * 100, 0), 100);
-
-      tooltip.style.left = pct + '%';
-      const idx = Math.floor((pct / 100) * (months.length - 1));
-      tooltip.textContent = months[idx];
-    });
-  }
-
-  // Map toggle
-  const toggle = document.getElementById('map-toggle');
-  if (toggle) {
-    toggle.addEventListener('click', () => {
-      toggle.classList.toggle('active');
-    });
-  }
-</script>

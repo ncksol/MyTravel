@@ -1,6 +1,6 @@
 /* ============================================
-   Landing Page — Warm Earthy Glassmorphism
-   Designer: React reference → Astro/CSS port
+   Landing Page — Merged Design
+   Original centered layout + new earthy palette & glass cards
    ============================================ */
 
 :root {
@@ -11,11 +11,8 @@
   --text-primary: #FFFFFF;
   --text-secondary: rgba(255, 255, 255, 0.6);
   --text-inverted: #2F2C2A;
-  --accent-glow: rgba(255, 255, 255, 0.8);
+  --text-dim: rgba(255, 255, 255, 0.35);
   --radius-lg: 24px;
-  --radius-md: 16px;
-  --radius-sm: 8px;
-  --spacing-unit: 8px;
   --font-main: 'DM Sans', sans-serif;
   --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
   --duration: 0.4s;
@@ -31,23 +28,11 @@ body {
   background-image: linear-gradient(to bottom, #3E3B39, #2C2A28);
   color: var(--text-primary);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.6;
-}
-
-/* === Layout Wrapper === */
-.landing-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 40px;
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 60px;
-  min-height: 100vh;
-  align-items: center;
-  position: relative;
-  z-index: 2;
 }
 
 /* === Fog Overlay === */
@@ -62,175 +47,70 @@ body {
   z-index: 1;
 }
 
-/* === Sidebar === */
-.landing-sidebar {
+/* === Landing Header (centered, from original) === */
+.landing-header {
+  padding: 4rem 2rem 2rem;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
   position: relative;
   z-index: 2;
 }
 
-/* === Nav Pill === */
-.nav-pill {
-  display: inline-flex;
-  align-items: center;
-  padding: 8px 16px;
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  margin-bottom: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.nav-pill span {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--text-primary);
-}
-
-/* === Landing Title === */
-.landing-title {
-  font-size: 4rem;
+.landing-header h1 {
+  font-family: var(--font-main);
+  font-size: 2.8rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  line-height: 0.9;
-  margin-bottom: 24px;
   color: var(--text-primary);
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
 }
 
-/* === Landing Description === */
-.landing-description {
-  margin-bottom: 48px;
-  max-width: 280px;
+.landing-header .tagline {
   font-size: 1rem;
-  line-height: 1.6;
-  color: var(--text-secondary);
   font-weight: 400;
-}
-
-/* === Timeline Slider === */
-.timeline-container {
-  margin-top: 40px;
-}
-
-.timeline-labels {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.875rem;
   color: var(--text-secondary);
-  margin-bottom: 12px;
+  letter-spacing: 0.03em;
+  max-width: 480px;
+  margin: 0 auto;
 }
 
-.timeline-track {
-  height: 2px;
-  background: rgba(255, 255, 255, 0.2);
+/* === Divider === */
+.divider {
+  width: 40px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 2.5rem auto;
   position: relative;
-  width: 100%;
-  border-radius: 2px;
-  cursor: pointer;
+  z-index: 2;
 }
 
-.timeline-progress {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 45%;
-  background: var(--text-primary);
-  border-radius: 2px;
-}
-
-.timeline-thumb {
-  position: absolute;
-  left: 45%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 24px;
-  height: 32px;
-  background: var(--text-primary);
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.timeline-thumb-line {
-  width: 2px;
-  height: 12px;
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 1px;
-}
-
-.timeline-tooltip {
-  position: absolute;
-  top: 40px;
-  left: 45%;
-  transform: translateX(-50%);
-  background: var(--text-primary);
-  color: var(--bg-dark);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 4px 8px;
-  border-radius: 12px;
-  pointer-events: none;
-  transition: left 0.1s ease-out;
-}
-
-/* === Toggle Switch === */
-.toggle-container {
-  margin-top: 48px;
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-
-.toggle-label {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-}
-
-.toggle-switch {
-  width: 44px;
-  height: 24px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
+/* === Section Label === */
+.section-label {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-dim);
+  margin-bottom: 2rem;
   position: relative;
-  cursor: pointer;
-  transition: background 0.3s;
-  flex-shrink: 0;
+  z-index: 2;
 }
 
-.toggle-switch.active {
-  background: rgba(255, 255, 255, 0.6);
-}
-
-.toggle-knob {
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  transition: transform 0.3s cubic-bezier(0.5, 1.6, 0.4, 0.7);
-}
-
-.toggle-switch.active .toggle-knob {
-  transform: translateX(20px);
-}
-
-/* === Travel Cards Grid === */
+/* === Travel Grid (centered, from original) === */
 .travel-grid {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 24px;
-  width: 100%;
+  position: relative;
+  z-index: 2;
 }
 
-/* === Travel Card === */
+/* === Travel Card (glass style from new design) === */
 .travel-card {
   display: flex;
   flex-direction: column;
@@ -285,7 +165,7 @@ body {
   stroke: var(--text-inverted);
 }
 
-/* Card content area */
+/* Card content */
 .card-content {
   margin-top: auto;
 }
@@ -347,41 +227,19 @@ body {
 
 /* === Landing Footer === */
 .landing-footer {
-  grid-column: 1 / -1;
+  margin-top: auto;
   text-align: center;
-  padding: 2rem 0 0;
+  padding: 2rem;
   font-size: 0.75rem;
-  color: var(--text-secondary);
-  opacity: 0.4;
+  color: var(--text-dim);
+  position: relative;
+  z-index: 2;
 }
 
 /* === Responsive === */
-@media (max-width: 1024px) {
-  .landing-wrapper {
-    grid-template-columns: 1fr;
-    padding: 24px;
-    gap: 40px;
-  }
-
-  .landing-title {
-    font-size: 3rem;
-  }
-
-  .landing-description {
-    max-width: 100%;
-  }
-}
-
 @media (max-width: 640px) {
-  .landing-title {
-    font-size: 2.4rem;
-  }
-
-  .travel-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .travel-card {
-    aspect-ratio: 3 / 4;
-  }
+  .landing-header { padding: 3rem 1.5rem 1.5rem; }
+  .landing-header h1 { font-size: 2rem; }
+  .travel-grid { padding: 0 1.5rem 3rem; grid-template-columns: 1fr; }
+  .travel-card { aspect-ratio: 3 / 4; }
 }
