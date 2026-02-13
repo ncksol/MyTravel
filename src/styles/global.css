@@ -630,35 +630,6 @@ footer {
    Page-Specific: Budget (Card Background)
    ============================================ */
 
-.page-budget {
-  background-color: var(--c-card);
-  border: none;
-}
-
-.page-budget::after {
-  display: none;
-}
-
-.page-budget table {
-  background: var(--c-paper);
-  border-radius: var(--radius-inner);
-  overflow: hidden;
-}
-
-.page-budget thead {
-  background: var(--c-ink);
-  color: var(--c-bg);
-}
-
-.page-budget th {
-  color: var(--c-bg);
-  border-bottom: none;
-}
-
-.page-budget h2 {
-  border-bottom-color: var(--c-ink-faint);
-}
-
 /* ============================================
    Page-Specific: Practical Info (Info Grid)
    Make lists look like info boxes
@@ -1013,15 +984,6 @@ footer {
     margin-top: 40px;
     padding-bottom: 20px;
     font-size: 0.8rem;
-  }
-
-  /* Budget page */
-  .page-budget {
-    padding: 16px;
-  }
-
-  .page-budget table {
-    border-radius: 8px;
   }
 
   /* Practical info: force single column */
