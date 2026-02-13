@@ -498,6 +498,206 @@ footer {
 }
 
 /* ============================================
+   Page-Specific: Itinerary (Timeline)
+   Each day section = h2 + content until next h2/hr
+   The prose renders: h1, table (At a Glance), then hr, h2, p?, ul, hr, h2, ...
+   ============================================ */
+
+.page-itinerary {
+  padding-left: 72px;
+  position: relative;
+}
+
+/* Dashed timeline line */
+.page-itinerary::before {
+  content: '';
+  position: absolute;
+  left: 40px;
+  top: 120px;
+  bottom: 60px;
+  width: 0;
+  border-left: 2px dashed var(--c-ink-faint);
+}
+
+/* Day section headers get circle markers */
+.page-itinerary h2 {
+  position: relative;
+}
+
+.page-itinerary h2::before {
+  content: '';
+  position: absolute;
+  left: -44px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: var(--c-bg);
+  border: var(--stroke);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Day cards — wrap each day's content in a visual card via adjacent sibling styling */
+.page-itinerary h2 ~ ul {
+  background: var(--c-card);
+  border-radius: var(--radius-outer);
+  padding: 24px 28px;
+  margin: 12px 0 0;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.page-itinerary h2 ~ ul:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 40px -5px rgba(89, 62, 46, 0.12);
+}
+
+/* Theme paragraphs that appear between h2 and ul */
+.page-itinerary h2 ~ p {
+  position: relative;
+  margin-left: 4px;
+}
+
+/* ============================================
+   Page-Specific: Bookings (Paper + Status Pills)
+   Markdown renders: h1, then h2 sections with tables
+   ============================================ */
+
+.page-bookings table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.page-bookings thead {
+  background: var(--c-card);
+}
+
+.page-bookings tbody tr {
+  border-bottom: 1px dashed var(--c-ink-faint);
+}
+
+.page-bookings tbody td:first-child {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* Status emoji styling — make them prominent */
+.page-bookings td:nth-child(2) {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* ============================================
+   Page-Specific: Budget (Card Background)
+   ============================================ */
+
+.page-budget {
+  background-color: var(--c-card);
+  border: none;
+}
+
+.page-budget::after {
+  display: none;
+}
+
+.page-budget table {
+  background: var(--c-paper);
+  border-radius: var(--radius-inner);
+  overflow: hidden;
+}
+
+.page-budget thead {
+  background: var(--c-ink);
+  color: var(--c-bg);
+}
+
+.page-budget th {
+  color: var(--c-bg);
+  border-bottom: none;
+}
+
+.page-budget h2 {
+  border-bottom-color: var(--c-ink-faint);
+}
+
+/* ============================================
+   Page-Specific: Practical Info (Info Grid)
+   Make lists look like info boxes
+   ============================================ */
+
+.page-practical-info > h2 ~ ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 16px 0 32px;
+}
+
+.page-practical-info > h2 ~ ul > li {
+  border: var(--stroke);
+  border-radius: var(--radius-inner);
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.page-practical-info > h2 ~ ul > li::before {
+  display: none;
+}
+
+.page-practical-info > h2 ~ ul > li strong {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+/* Ordered lists (like onsen etiquette) keep normal styling */
+.page-practical-info ol {
+  padding-left: 24px;
+}
+
+.page-practical-info ol li {
+  list-style: decimal;
+  display: list-item;
+  padding-left: 8px;
+}
+
+.page-practical-info ol li::before {
+  display: none;
+}
+
+/* ============================================
+   Page-Specific: Restaurants
+   Style the restaurant sections with cards
+   ============================================ */
+
+.page-restaurants h3 {
+  position: relative;
+  padding-left: 0;
+}
+
+.page-restaurants h3 ~ ul {
+  background: var(--c-card);
+  border-radius: var(--radius-inner);
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.page-restaurants h3 ~ ul:hover {
+  border-color: var(--c-ink);
+  background: var(--c-card-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft);
+}
+
+/* ============================================
    Responsive
    ============================================ */
 
@@ -541,4 +741,17 @@ footer {
   .prose th, .prose td { padding: 8px 10px; }
 
   .prose hr::before { display: none; }
+
+  /* Itinerary timeline adjustments */
+  .page-itinerary {
+    padding-left: 40px;
+  }
+  .page-itinerary::before {
+    left: 12px;
+  }
+  .page-itinerary h2::before {
+    left: -38px;
+    width: 16px;
+    height: 16px;
+  }
 }
