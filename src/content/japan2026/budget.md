@@ -82,7 +82,7 @@ Note: Ryokan dinners & breakfasts (4 meals for 2) are included in accommodation 
 | Miscellaneous | ¥65,000 | £342 |
 | **TOTAL** | **¥797,500** | **£4,197** |
 
-### 💰 Buffer remaining: approx. £803 (approx. ¥152,500)
+### 💰 Buffer remaining: \~£803 (\~¥152,500)
 
 This leaves a comfortable buffer for:
 - Upgrading a meal or two
@@ -93,5 +93,5 @@ This leaves a comfortable buffer for:
 ### Budget Notes
 - The ryokan is the biggest single expense (~£842) but includes 4 exceptional meals
 - Birthday dinner is ~£368 for two — the trip's main splurge
-- Daily food budget outside splurges averages approx. ¥5,200 pp (approx. £27) — very comfortable in Japan
+- Daily food budget outside splurges averages \~¥5,200 pp (\~£27) — very comfortable in Japan
 - Transport is efficient because we skip the JR Pass (saving ~£200)
