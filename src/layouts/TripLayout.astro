@@ -79,6 +79,17 @@ const currentNav = navItems.find(item => item.id === activeNav);
         </footer>
       </main>
     </div>
+  <script>
+    // Scroll active nav item into view on mobile (within nav only)
+    const active = document.querySelector('nav li a.active');
+    if (active && window.innerWidth <= 900) {
+      const ul = active.closest('ul');
+      if (ul) {
+        const offset = active.offsetLeft - (ul.clientWidth / 2) + (active.offsetWidth / 2);
+        ul.scrollLeft = Math.max(0, offset);
+      }
+    }
+  </script>
   </body>
 </html>
 

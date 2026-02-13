@@ -694,7 +694,7 @@ footer {
 }
 
 /* ============================================
-   Responsive
+   Responsive — Tablet (≤900px)
    ============================================ */
 
 @media (max-width: 900px) {
@@ -708,6 +708,7 @@ footer {
     position: relative;
     top: 0;
     margin-bottom: 20px;
+    min-width: 0;
   }
 
   .sidebar-title {
@@ -715,18 +716,44 @@ footer {
     margin-bottom: 24px;
   }
 
+  /* Horizontal scroll nav with fade affordance */
+  nav {
+    position: relative;
+  }
+
+  nav::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    background: linear-gradient(to left, var(--c-bg), transparent);
+    pointer-events: none;
+    z-index: 1;
+  }
+
   nav ul {
     flex-direction: row;
     overflow-x: auto;
     padding-bottom: 10px;
     gap: 8px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  nav ul::-webkit-scrollbar {
+    display: none;
   }
 
   nav li a {
     font-size: 1rem;
-    padding: 8px 14px;
+    padding: 10px 16px;
+    min-height: 44px;
     white-space: nowrap;
   }
+
+  .nav-curve { display: none; }
 
   .nav-grid { grid-template-columns: 1fr; }
 
@@ -749,5 +776,282 @@ footer {
     left: -38px;
     width: 16px;
     height: 16px;
+  }
+}
+
+/* ============================================
+   Responsive — Phone (≤640px)
+   ============================================ */
+
+@media (max-width: 640px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    padding: 12px;
+  }
+
+  /* Prevent horizontal overflow on main */
+  main {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    gap: 24px;
+  }
+
+  .wrapper {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .content-card {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Compact sidebar header */
+  .back-link {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .sidebar-title {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+
+  .sidebar-title .subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+
+  /* Nav: bigger touch targets */
+  nav li a {
+    font-size: 0.9rem;
+    padding: 10px 14px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Section header + kanji wrap */
+  .section-header {
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+  }
+
+  .section-header h2,
+  .prose h1 {
+    font-size: 1.5rem;
+  }
+
+  .kanji-stamp {
+    font-size: 1.2rem;
+    padding: 2px 8px;
+  }
+
+  /* Content card: tighter padding */
+  .content-card {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .content-card::after {
+    right: 20px;
+    width: 40px;
+    height: 14px;
+  }
+
+  /* Typography: prevent overflow */
+  .prose {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .prose h1 {
+    font-size: 1.4rem;
+  }
+
+  .prose h2 {
+    font-size: 1.3rem;
+    margin: 2rem 0 0.75rem;
+  }
+
+  .prose h3 {
+    font-size: 1.15rem;
+  }
+
+  .prose h4 {
+    font-size: 1rem;
+  }
+
+  /* Tables: scroll affordance */
+  .prose table {
+    font-size: 0.8rem;
+    position: relative;
+  }
+
+  .prose th, .prose td {
+    padding: 6px 8px;
+  }
+
+  /* Itinerary: simplified timeline */
+  .page-itinerary {
+    padding-left: 0;
+  }
+
+  .page-itinerary::before {
+    display: none;
+  }
+
+  .page-itinerary h2 {
+    padding-left: 28px;
+  }
+
+  .page-itinerary h2::before {
+    left: 0;
+    width: 14px;
+    height: 14px;
+  }
+
+  .page-itinerary h2 ~ ul {
+    padding: 16px 18px;
+    border-radius: 16px;
+  }
+
+  /* Overview page */
+  .hero {
+    text-align: center;
+    padding: 0.5rem 0 0;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero .subtitle {
+    font-size: 0.85rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .trip-overview {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 16px 20px;
+    gap: 12px;
+  }
+
+  .stat-item .stat-value {
+    font-size: 1.3rem;
+  }
+
+  .nav-card {
+    padding: 18px;
+    border-radius: 16px;
+  }
+
+  .nav-card .card-emoji {
+    font-size: 1.6rem;
+  }
+
+  .nav-card .card-title {
+    font-size: 1.1rem;
+  }
+
+  .nav-card .card-desc {
+    font-size: 0.85rem;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+  }
+
+  /* Budget page */
+  .page-budget {
+    padding: 16px;
+  }
+
+  .page-budget table {
+    border-radius: 8px;
+  }
+
+  /* Practical info: force single column */
+  .page-practical-info > h2 ~ ul {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .page-practical-info > h2 ~ ul > li {
+    padding: 12px 16px;
+  }
+
+  /* Restaurant cards */
+  .page-restaurants h3 ~ ul {
+    padding: 14px 18px;
+  }
+}
+
+/* ============================================
+   Responsive — Small Phone (≤480px)
+   ============================================ */
+
+@media (max-width: 480px) {
+  body {
+    padding: 8px;
+  }
+
+  .sidebar-title {
+    font-size: 1.5rem;
+  }
+
+  .sidebar-title .subtitle {
+    font-size: 1rem;
+  }
+
+  .section-header h2,
+  .prose h1 {
+    font-size: 1.3rem;
+  }
+
+  .content-card {
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .content-card::after {
+    display: none;
+  }
+
+  .prose h2 {
+    font-size: 1.15rem;
+  }
+
+  .prose h3 {
+    font-size: 1.05rem;
+  }
+
+  .prose th, .prose td {
+    padding: 5px 6px;
+    font-size: 0.75rem;
+  }
+
+  .trip-overview {
+    padding: 12px 16px;
+  }
+
+  .nav-card {
+    padding: 14px;
+  }
+
+  .page-itinerary h2 ~ ul {
+    padding: 12px 14px;
   }
 }
