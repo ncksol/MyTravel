@@ -1,20 +1,24 @@
 /* ============================================
-   Landing Page — Dark Minimalist Design
+   Landing Page — Warm Earthy Glassmorphism
+   Designer: React reference → Astro/CSS port
    ============================================ */
 
 :root {
-  --land-bg: #0a0a0a;
-  --land-surface: #141414;
-  --land-border: #222222;
-  --land-border-hover: #333333;
-  --land-text: #e0e0e0;
-  --land-text-muted: #888888;
-  --land-text-dim: #555555;
-  --land-accent: #d4d4d4;
-  --land-white: #fafafa;
-
-  --font-display: 'Playfair Display', Georgia, serif;
-  --font-body: 'Inter', -apple-system, sans-serif;
+  --bg-base: #5E5A56;
+  --bg-dark: #2F2C2A;
+  --glass-surface: rgba(47, 44, 42, 0.45);
+  --glass-surface-active: #F5F2F0;
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-inverted: #2F2C2A;
+  --accent-glow: rgba(255, 255, 255, 0.8);
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 8px;
+  --spacing-unit: 8px;
+  --font-main: 'DM Sans', sans-serif;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration: 0.4s;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -22,144 +26,362 @@
 html { font-size: 16px; }
 
 body {
-  font-family: var(--font-body);
-  background: var(--land-bg);
-  color: var(--land-text);
+  font-family: var(--font-main);
+  background: var(--bg-dark);
+  background-image: linear-gradient(to bottom, #3E3B39, #2C2A28);
+  color: var(--text-primary);
   min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+/* === Layout Wrapper === */
+.landing-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 60px;
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* === Fog Overlay === */
+.fog-overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(to top, rgba(44, 42, 40, 1), transparent);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* === Sidebar === */
+.landing-sidebar {
+  position: relative;
+  z-index: 2;
+}
+
+/* === Nav Pill === */
+.nav-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  margin-bottom: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nav-pill span {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-primary);
+}
+
+/* === Landing Title === */
+.landing-title {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 0.9;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+}
+
+/* === Landing Description === */
+.landing-description {
+  margin-bottom: 48px;
+  max-width: 280px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+/* === Timeline Slider === */
+.timeline-container {
+  margin-top: 40px;
+}
+
+.timeline-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.timeline-track {
+  height: 2px;
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+  width: 100%;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.timeline-progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 45%;
+  background: var(--text-primary);
+  border-radius: 2px;
+}
+
+.timeline-thumb {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 32px;
+  background: var(--text-primary);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-thumb-line {
+  width: 2px;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+}
+
+.timeline-tooltip {
+  position: absolute;
+  top: 40px;
+  left: 45%;
+  transform: translateX(-50%);
+  background: var(--text-primary);
+  color: var(--bg-dark);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 12px;
+  pointer-events: none;
+  transition: left 0.1s ease-out;
+}
+
+/* === Toggle Switch === */
+.toggle-container {
+  margin-top: 48px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.toggle-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.toggle-switch {
+  width: 44px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s;
+  flex-shrink: 0;
+}
+
+.toggle-switch.active {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.toggle-knob {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.toggle-switch.active .toggle-knob {
+  transform: translateX(20px);
+}
+
+/* === Travel Cards Grid === */
+.travel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  width: 100%;
+}
+
+/* === Travel Card === */
+.travel-card {
   display: flex;
   flex-direction: column;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* === Landing Header === */
-.landing-header {
-  padding: 4rem 2rem 2rem;
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.landing-header h1 {
-  font-family: var(--font-display);
-  font-size: 2.8rem;
-  font-weight: 400;
-  color: var(--land-white);
-  letter-spacing: -0.02em;
-  margin-bottom: 1rem;
-}
-
-.landing-header .tagline {
-  font-size: 1rem;
-  font-weight: 300;
-  color: var(--land-text-muted);
-  letter-spacing: 0.03em;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-/* === Divider === */
-.divider {
-  width: 40px;
-  height: 1px;
-  background: var(--land-border-hover);
-  margin: 2.5rem auto;
-}
-
-/* === Section Label === */
-.section-label {
-  text-align: center;
-  font-size: 0.7rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--land-text-dim);
-  margin-bottom: 2rem;
-}
-
-/* === Travel Grid === */
-.travel-grid {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 2rem 4rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1.5rem;
-}
-
-.travel-card {
-  display: block;
+  justify-content: space-between;
   text-decoration: none;
-  color: var(--land-text);
-  background: var(--land-surface);
-  border: 1px solid var(--land-border);
-  border-radius: 8px;
-  padding: 2rem;
-  transition: border-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  color: var(--text-primary);
+  background: var(--glass-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  aspect-ratio: 4 / 5;
+  transition: all var(--duration) var(--ease-out);
+  cursor: pointer;
   position: relative;
   overflow: hidden;
 }
 
 .travel-card:hover {
-  border-color: var(--land-border-hover);
-  transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  background: var(--glass-surface-active);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
-.travel-card .card-flag {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+/* Card icon */
+.card-icon {
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color var(--duration) var(--ease-out);
+}
+
+.travel-card:hover .card-icon {
+  border-color: rgba(47, 44, 42, 0.1);
+}
+
+.card-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--text-primary);
+  stroke-width: 1.5;
+  fill: none;
+  transition: stroke var(--duration) var(--ease-out);
+}
+
+.travel-card:hover .card-icon svg {
+  stroke: var(--text-inverted);
+}
+
+/* Card content area */
+.card-content {
+  margin-top: auto;
+}
+
+/* Status indicator */
+.card-status {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color var(--duration);
+}
+
+.travel-card:hover .card-status {
+  color: rgba(47, 44, 42, 0.5);
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--text-secondary);
+  border-radius: 50%;
+  transition: background-color var(--duration);
+}
+
+.travel-card:hover .status-dot {
+  background-color: #4CAF50;
+}
+
+/* Card title */
+.card-title {
   display: block;
-}
-
-.travel-card .card-destination {
-  font-family: var(--font-display);
   font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--land-white);
-  margin-bottom: 0.3rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: var(--text-primary);
+  transition: color var(--duration) var(--ease-out);
 }
 
-.travel-card .card-dates {
-  font-size: 0.8rem;
-  color: var(--land-text-muted);
-  margin-bottom: 0.75rem;
-  letter-spacing: 0.02em;
+.travel-card:hover .card-title {
+  color: var(--text-inverted);
 }
 
-.travel-card .card-route {
-  font-size: 0.85rem;
-  color: var(--land-text-dim);
-  line-height: 1.5;
+/* Card subtitle */
+.card-subtitle {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  transition: color var(--duration) var(--ease-out);
 }
 
-.travel-card .card-arrow {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  font-size: 1.2rem;
-  color: var(--land-text-dim);
-  transition: color 0.3s, transform 0.3s;
-}
-
-.travel-card:hover .card-arrow {
-  color: var(--land-text);
-  transform: translateX(3px);
+.travel-card:hover .card-subtitle {
+  color: rgba(47, 44, 42, 0.6);
 }
 
 /* === Landing Footer === */
 .landing-footer {
-  margin-top: auto;
+  grid-column: 1 / -1;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 0 0;
   font-size: 0.75rem;
-  color: var(--land-text-dim);
-  border-top: 1px solid var(--land-border);
+  color: var(--text-secondary);
+  opacity: 0.4;
 }
 
 /* === Responsive === */
+@media (max-width: 1024px) {
+  .landing-wrapper {
+    grid-template-columns: 1fr;
+    padding: 24px;
+    gap: 40px;
+  }
+
+  .landing-title {
+    font-size: 3rem;
+  }
+
+  .landing-description {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 640px) {
-  .landing-header { padding: 3rem 1.5rem 1.5rem; }
-  .landing-header h1 { font-size: 2rem; }
-  .travel-grid { padding: 0 1.5rem 3rem; grid-template-columns: 1fr; }
+  .landing-title {
+    font-size: 2.4rem;
+  }
+
+  .travel-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .travel-card {
+    aspect-ratio: 3 / 4;
+  }
 }
