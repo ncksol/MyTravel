@@ -13,40 +13,49 @@
 
 ---
 
-## Day 1 — Friday, Sep 19: Arrival
+> ⚠️ **SILVER WEEK 2026 — Days 1-5 overlap with a rare 5-day national holiday (Sep 19-23).** This only happens every 5-7 years and is one of Japan's busiest domestic travel periods — comparable to Golden Week. Expect extreme crowds at major attractions, higher hotel prices, and harder restaurant reservations. The itinerary has been structured to front-load off-beaten-path neighborhoods during Silver Week and save the most popular attractions for Day 6 (Thursday Sep 24) when the holiday ends.
+>
+> 🔴 **Holidays:** Mon Sep 21 = Respect for the Aged Day · Tue Sep 22 = Bridge Holiday · Wed Sep 23 = Autumnal Equinox Day
+
+---
+
+## Day 1 — Saturday, Sep 19: Arrival
 
 - **14:30** Arrive Tokyo Haneda (HND)
 - **~15:30** Clear immigration & customs
 - **~16:00** Take monorail or Keikyu line to Akasaka (via Hamamatsucho or Shinagawa, transfer to Metro). ~45-60 min, ~¥700
 - **17:00** Check into hotel, freshen up
 - **18:30** Head to **Omoide Yokocho** (思い出横丁, "Memory Lane") near Shinjuku — narrow atmospheric alleyways packed with tiny yakitori stalls. Grab a few skewers and a beer, soak in the smoky, lantern-lit atmosphere. Try: negima (chicken & scallion), tsukune (meatball), kawa (crispy skin)
-- **20:00** Walk to nearby **Golden Gai** — a grid of ~200 micro-bars, each seating 5-10 people. A living relic of post-war Tokyo. Look for foreigner-friendly spots (check for signs). Each bar has its own personality. Cover charge ¥500-1,000
-- **Notes:** Keep it light — jet lag recovery. Grab a Suica/PASMO card at the airport (or set up mobile Suica on iPhone). This is the perfect low-key first-night intro to Tokyo's nightlife culture
+- **20:00** Optional: walk to nearby **Golden Gai** — a grid of ~200 micro-bars, each seating 5-10 people. A living relic of post-war Tokyo. Look for foreigner-friendly spots (check for signs). Cover charge ¥500-1,000. However, Golden Gai can feel overwhelming on a first night in Japan — the tiny bars and unspoken rules can be intimidating. If jet lag is hitting, the izakayas around Akasaka are a gentler alternative
+- **Notes:** Keep it light — jet lag recovery. Grab a Suica/PASMO card at the airport (or set up mobile Suica on iPhone). Silver Week starts today — Shinjuku will be buzzing but Omoide Yokocho handles crowds well due to its tight layout
 
 ---
 
-## Day 2 — Saturday, Sep 20: Classic Tokyo East
+## Day 2 — Sunday, Sep 20: Hidden Tokyo Neighborhoods 🔴 Silver Week
 
-**Theme: Asakusa, Ueno, Yanaka — old Tokyo**
+**Theme: Off-beaten-path Tokyo — avoiding Silver Week crowds at major attractions**
+
+> 💡 Senso-ji, Ueno, and other major attractions have been moved to Day 6 (post-Silver Week Thursday) when crowds return to normal. Today focuses on charming neighborhoods that domestic tourists don't flock to during holidays.
 
 - **08:30** Breakfast at hotel or grab onigiri from a konbini
-- **09:00** Head to **Senso-ji Temple** (浅草寺) via Metro (~25 min from Akasaka-mitsuke). Arrive early to beat crowds
-- **10:00** Explore **Nakamise-dori** shopping street — pick up snacks and souvenirs
-- **10:30** Walk along the Sumida River to **Asakusa Culture Tourist Information Center** (free observation deck with Skytree views)
-- **11:30** Head to **Ueno** (5 min by Metro). Visit **Ueno Park** — choose one museum (Tokyo National Museum recommended for first-timers, ¥1,000)
-- **13:00** Lunch at **Ameyoko Market** (アメ横) — street food stalls, fresh seafood, grilled skewers
-- **14:30** Walk to **Yanaka** (谷中) — the nostalgic neighborhood. Explore Yanaka Ginza shopping street, try menchi katsu, see the cats
-- **16:00** Visit **Nezu Shrine** (根津神社) — beautiful, quiet, rarely crowded
-- **17:30** Return to Akasaka. Rest
+- **09:00** Head to **Yanaka** (谷中) via Metro (~20 min from Akasaka). This nostalgic neighborhood feels like old Tokyo — wooden houses, narrow lanes, temple-dotted hills. Explore **Yanaka Ginza** shopping street, try menchi katsu (fried meat croquette), spot the resident cats
+- **10:30** Walk to **Nezu Shrine** (根津神社) — beautiful vermillion torii gate tunnel, rarely crowded even during Silver Week. One of Tokyo's oldest shrines
+- **11:30** Walk to **Kagurazaka** (神楽坂) — the "Little Paris" of Tokyo. Cobblestone alleys, hidden shrines, French bakeries, traditional ryotei restaurants. Explore the yokocho (narrow lanes) — Hyogo Yokocho and Kakurenbo Yokocho are the best
+- **12:30** Lunch in Kagurazaka — French-Japanese fusion bistro or a traditional ryotei
+- **14:00** Walk or short metro to **Jimbocho** (神保町) — Book Town. Browse hundreds of vintage bookstores (many have English sections). Stop at a classic **kissaten** (retro coffee shop) — try Sabouru or Ladrio for the 1950s atmosphere
+- **16:00** Free time — return to hotel, rest, or explore nearby **Ochanomizu** (musical instrument shops, holy water shrine)
+- **17:30** Return to Akasaka
 - **19:00** Dinner: Izakaya near Akasaka — try **yakitori** and draft beer
 
 ---
 
-## Day 3 — Sunday, Sep 21: Shibuya, Harajuku, Meiji Shrine
+## Day 3 — Monday, Sep 21: Shibuya, Harajuku, Meiji Shrine 🔴 Respect for the Aged Day
 
 **Theme: Modern Tokyo, fashion, pop culture**
 
-- **08:00** Early morning visit to **Meiji Shrine** (明治神宮) — serene forest walk, arrive before crowds
+> ⚠️ National holiday — expect heavier crowds than a normal Monday, especially at Meiji Shrine and Harajuku. Arrive as early as possible.
+
+- **07:30** Early morning visit to **Meiji Shrine** (明治神宮) — serene forest walk. On this national holiday, even early morning will have more visitors than usual, but the vast forest grounds absorb crowds well. Aim to arrive by 7:30 for the quietest experience
 - **09:30** Walk through **Harajuku** — Takeshita Street for people-watching, Omotesando for architecture and upscale shopping
 - **10:30** Coffee break at a Harajuku/Omotesando café
 - **11:00** Walk to **Shibuya** — see the famous **Shibuya Crossing** from the Shibuya Sky observation deck (¥2,000, book online) or the Starbucks overlooking the crossing
@@ -58,39 +67,43 @@
 
 ---
 
-## Day 4 — Monday, Sep 22: 🎂 Birthday Day
+## Day 4 — Tuesday, Sep 22: 🎂 Birthday Day 🔴 Bridge Holiday
 
-**Theme: Special day — Imperial Palace, Ginza, Birthday Dinner**
+**Theme: Special day — Tsukiji morning, Ginza, Birthday Dinner**
 
-- **09:00** Morning walk around **Imperial Palace East Gardens** (皇居東御苑) — free, beautiful, peaceful
-- **10:30** Walk to **Ginza** — window shop the department stores, visit the Sony showroom or Ginza Six
-- **11:30** **Depachika experience** at Mitsukoshi Ginza B1 — sample wagashi, buy bento for lunch, try everything
-- **13:00** Lunch: Eat your depachika finds in a nearby park or try a mid-range sushi spot in Ginza
-- **14:30** Visit **Tsukiji Outer Market** (築地場外市場) — fresh seafood snacks, tamagoyaki, grilled scallops. Walk and graze
-- **16:00** Free time — shopping, rest, or visit **TeamLab Borderless** (book tickets in advance, ¥3,800)
+> ⚠️ National holiday (bridge day between two holidays). Imperial Palace East Gardens are **likely closed today** — when a Monday holiday falls, the gardens close on Tuesday as substitute. Birthday plan has been adjusted accordingly.
+
+- **09:00** Head to **Tsukiji Outer Market** (築地場外市場) — the market is in full swing from 7 AM to early afternoon. Arrive by 9 AM for the best energy. Graze your way through: tamagoyaki (sweet omelette), grilled scallops, fresh uni, tuna skewers. This is your birthday brunch
+- **11:00** Walk to nearby **Hamarikyu Gardens** (浜離宮恩賜庭園, ¥300) — a stunning Edo-era garden with a tea house on a pond, framed by modern skyscrapers. Have matcha and wagashi at the **Nakajima no Ochaya** tea house on the water. A peaceful birthday morning moment
+- **12:30** Walk to **Ginza** (~15 min from Hamarikyu) — window shop the department stores, visit the Sony showroom or Ginza Six
+- **13:30** **Depachika experience** at Mitsukoshi Ginza B1 — sample wagashi, buy bento for lunch, try everything
+- **15:00** Free time — shopping, rest, or visit **TeamLab Borderless** (book tickets in advance, ¥3,800). Use this time to recharge before dinner
 - **18:30** 🎂 **BIRTHDAY DINNER** — High-end omakase
   - **Top pick: Sushi Miura (Akasaka)** — ¥34,000 pp, seasonal sushi, 4.9★, right in your neighborhood
   - **Alt: Nogizaka Shin** — kaiseki-style omakase with sake pairings, Akasaka/Roppongi border
   - **Alt: Sushi Yoshitake (Ginza)** — 3 Michelin stars, ¥25,000-35,000 pp
-  - ⚠️ **Book 1-3 months ahead!** Mention birthday for special touches
+  - ⚠️ **Book 6+ months ahead!** This is Silver Week — premium restaurants are booked months in advance by domestic diners. Mention birthday for special touches. Start trying to reserve as soon as bookings open
 - **21:00** Birthday drinks at a cocktail bar — try **Bar High Five** (Ginza, world-famous) or a Roppongi bar
 
 ---
 
-## Day 5 — Tuesday, Sep 23: Explorer Day — Choose Your Track
+## Day 5 — Wednesday, Sep 23: Explorer Day — Choose Your Track 🔴 Autumnal Equinox Day
 
 **Theme: Off-beaten-path exploration — pick based on your mood!**
 
-### 🅰️ Track A: Cultural Walk — Temples, Gardens & Hidden Tokyo
+> ⚠️ Last day of Silver Week. Major parks and gardens (Shinjuku Gyoen, Ueno) will be extremely crowded. Both tracks below focus on areas less affected by holiday crowds.
 
-- **09:00** Head to **Shinjuku Gyoen** (新宿御苑) — one of Tokyo's finest gardens (¥500). Peaceful morning walk
-- **10:30** Walk to **Kagurazaka** (神楽坂) — the "Little Paris" of Tokyo. Cobblestone alleys, hidden shrines, French bakeries, traditional ryotei. Explore the yokocho (narrow lanes)
-- **12:00** Lunch: French-Japanese fusion in Kagurazaka or traditional ryotei dining
-- **13:30** Head to **Jimbocho** (神保町) — Book Town. Browse hundreds of vintage bookstores, stop at a classic kissaten (retro coffee shop)
-- **15:30** Visit **Nezu Shrine** — beautiful, quiet, rarely crowded. Walk through the vermillion torii gate tunnel
+### 🅰️ Track A: Cultural Walk — Gardens, Temples & Hidden Tokyo
+
+- **09:00** Head to **Koishikawa Korakuen** (小石川後楽園, ¥300) — one of Tokyo's oldest gardens, far less crowded than Shinjuku Gyoen even on holidays. Beautiful Edo-era strolling garden
+- **10:30** Walk to **Kanda area** — visit **Kanda Myojin Shrine** (anime-themed ema, important Edo-era shrine)
+- **11:30** Explore **Ochanomizu** — musical instrument shops lining the street, Nikolai Cathedral (unexpected Russian Orthodox church in Tokyo)
+- **12:00** Lunch: Classic tonkatsu near Kanda or a hidden soba shop
+- **13:30** Head to **Nihonbashi** (日本橋) — historic merchant district. Coredo Muromachi for modern Japanese craft goods. Visit the original Mitsukoshi department store (Japan's oldest, founded 1673)
+- **15:30** Walk to **Tokyo Station** area — explore the beautifully restored Marunouchi station building, browse KITTE shopping complex (former central post office)
 - **17:00** Return to hotel, rest
-- **19:00** Dinner: Akasaka local izakaya
-- **21:00** Head to **Golden Gai** (Shinjuku) for tiny bars or **Omoide Yokocho** for yakitori
+- **19:00** Dinner: Akasaka local izakaya or Korean food (Akasaka has a great Korean food scene)
+- **21:00** Head to **Omoide Yokocho** for a farewell Silver Week yakitori
 
 ### 🅱️ Track B: Cool Neighborhoods — Vintage, Vinyl & Vibes
 
@@ -105,21 +118,25 @@
 
 ---
 
-## Day 6 — Wednesday, Sep 24: Akihabara, Ueno revisit, Packing
+## Day 6 — Thursday, Sep 24: Classic Tokyo — Post-Silver Week! ✅
 
-**Theme: Pop culture, last Tokyo bits, prepare for Hakone**
+**Theme: Major attractions at normal crowd levels, then prepare for Hakone**
 
-- **09:00** Head to **Akihabara** (秋葉原) — electronics, anime, manga, gaming. Explore Super Potato (retro games), Mandarake (manga/figures)
-- **11:00** Visit **Kanda Shrine** — anime-themed ema (prayer plaques), peaceful contrast to Akihabara energy
-- **12:00** Lunch: Try a themed café in Akihabara or a classic tonkatsu near Kanda
-- **13:30** Revisit anything you missed, or explore **Nihonbashi** — historic merchant district, Coredo Muromachi shopping complex
-- **15:00** Free time for shopping, souvenirs, or visiting a specific museum
+> 💡 Silver Week ended yesterday! Today is the first regular weekday — perfect for hitting Tokyo's most popular spots with manageable crowds.
+
+- **08:00** Head to **Senso-ji Temple** (浅草寺) via Metro (~25 min from Akasaka-mitsuke). On a Thursday morning, crowds are very reasonable. Walk through **Nakamise-dori** shopping street — pick up snacks and souvenirs
+- **09:30** Walk along the Sumida River to **Asakusa Culture Tourist Information Center** (free observation deck with Skytree views)
+- **10:00** Head to **Ueno** (5 min by Metro). Visit **Ueno Park** — choose one museum (Tokyo National Museum recommended for first-timers, ¥1,000)
+- **11:30** Lunch at **Ameyoko Market** (アメ横) — street food stalls, fresh seafood, grilled skewers. Busy but authentic market energy
+- **13:00** Metro to **Imperial Palace East Gardens** (皇居東御苑) — free, beautiful, peaceful. Definitely open on Thursdays. The serene gardens and Edo castle ruins are a highlight
+- **14:30** Walk to **Akihabara** (~15 min) — electronics, anime, manga, gaming. Explore Super Potato (retro games), Mandarake (manga/figures)
+- **16:00** Visit **Kanda Shrine** nearby — anime-themed ema (prayer plaques), peaceful contrast to Akihabara energy
 - **17:00** Pack for Hakone (just bring an overnight bag if possible — leave main luggage at hotel or use luggage forwarding service "takkyubin")
 - **19:00** Farewell Tokyo dinner — try something you haven't yet. Suggestion: **yakitori under the tracks at Yurakucho** (atmospheric!)
 
 ---
 
-## Day 7 — Thursday, Sep 25: Tokyo → Hakone
+## Day 7 — Friday, Sep 25: Tokyo → Hakone
 
 **Theme: Travel to Hakone, ryokan check-in, onsen relaxation**
 
@@ -140,7 +157,7 @@
 
 ---
 
-## Day 8 — Friday, Sep 26: Hakone Exploration
+## Day 8 — Saturday, Sep 26: Hakone Exploration
 
 **Theme: Hakone sightseeing loop, second ryokan night**
 
@@ -157,7 +174,7 @@
 
 ---
 
-## Day 9 — Saturday, Sep 27: Hakone → Kyoto
+## Day 9 — Sunday, Sep 27: Hakone → Kyoto
 
 **Theme: Travel day + first Kyoto evening**
 
@@ -174,7 +191,7 @@
 
 ---
 
-## Day 10 — Sunday, Sep 28: Kyoto East — Temples & Traditions
+## Day 10 — Monday, Sep 28: Kyoto East — Temples & Traditions
 
 **Theme: Eastern Kyoto temple circuit**
 
@@ -190,9 +207,9 @@
 
 ---
 
-## Day 11 — Monday, Sep 29: Kyoto West & North + Hidden Gems
+## Day 11 — Tuesday, Sep 29: Kyoto West & North
 
-**Theme: Arashiyama, golden temple, off-beaten-path**
+**Theme: Arashiyama, golden temple, zen gardens**
 
 - **08:00** Head to **Arashiyama** (嵐山) early by train (~20 min from downtown)
   - **Bamboo Grove** — walk through before 9am for fewer people
@@ -201,11 +218,13 @@
   - Or visit **Gio-ji** — tiny moss garden temple, magical atmosphere
 - **12:00** Lunch in Arashiyama — try **matcha parfait** or tofu cuisine
 - **13:30** Bus to **Kinkaku-ji** (金閣寺, Golden Pavilion, ¥500) — iconic, must-see
-- **15:00** Option A: **Kurama & Kibune** — take Eizan Railway from Demachiyanagi. Hike Kurama to Kibune trail (1.5 hrs), visit Kifune Shrine with red lanterns
-- **15:00** Option B: **Fushimi sake district** — sake brewery tastings at Gekkeikan museum (~¥400), explore canal-side streets
-- **18:00** Return to Kyoto
-- **19:00** 🏮 **Kawadoko Dinner in Kibune** (if doing Option A) — dine on wooden platforms built centimeters above the rushing Kibune River, surrounded by cedar forest. This is kaiseki-style seasonal cuisine in one of Kyoto's most magical settings. Late September is the **final week of kawadoko season** (runs June-Sept) — call ahead to confirm availability. Budget ¥5,000-15,000 per person. Book at Hirobun, Kifune Club, or Ugenta
-- **19:00** Final Kyoto dinner (if doing Option B) — splurge on a **kaiseki dinner** at a nice Gion restaurant, or try **Kyoto-style sushi** (pressed/box-style)
+- **15:00** Walk to **Ryoan-ji** (龍安寺, ¥500, ~15 min walk from Kinkaku-ji) — Japan's most famous zen rock garden. Fifteen stones arranged on raked white gravel — you can never see all 15 at once from any angle. Deeply meditative
+- **16:00** Option A: Continue to **Daitoku-ji** (~15 min by bus) — sprawling zen temple complex with multiple sub-temples. Much less crowded than Kinkaku-ji. Daisen-in has an exquisite dry landscape garden
+- **16:00** Option B: Head to **Fushimi sake district** — sake brewery tastings at Gekkeikan museum (~¥400), explore canal-side streets
+- **18:00** Return to hotel
+- **19:00** Final Kyoto dinner — splurge on a **kaiseki dinner** at a nice Gion restaurant, or try **Kyoto-style sushi** (pressed/box-style)
+
+> 📌 **Kurama & Kibune:** This hike is a full-day commitment (transit + 1.5hr trail + shrine visit + lunch). It cannot be squeezed in after Kinkaku-ji — the transit alone takes 1+ hour and the trail would end in darkness by late September (sunset ~17:45). If Kurama-Kibune interests you, consider the **4-day Kyoto alternative** below which gives it a dedicated day, including the magical **kawadoko riverside dining** in Kibune (final week of the June-September season).
 
 ---
 
@@ -245,7 +264,7 @@ This version gives Kyoto room to breathe: dawn Fushimi Inari, the Kurama-Kibune 
 
 ---
 
-## Day 12 — Tuesday, Sep 30: Kyoto → Osaka + Nara detour
+## Day 12 — Wednesday, Sep 30: Kyoto → Osaka + Nara detour
 
 **Theme: Day trip to Nara, then settle into Osaka**
 
@@ -266,11 +285,11 @@ This version gives Kyoto room to breathe: dawn Fushimi Inari, the Kurama-Kibune 
 
 ---
 
-## Day 13 — Wednesday, Oct 1: Osaka Deep Dive
+## Day 13 — Thursday, Oct 1: Osaka Deep Dive
 
 **Theme: Street food capital, local neighborhoods**
 
-- **09:00** Head to **Kuromon Market** (黒門市場) — Osaka's kitchen. Graze: fresh sashimi, grilled wagyu skewers, tempura, fruit
+- **09:00** Walk through **Kuromon Market** (黒門市場) — historically "Osaka's kitchen," now primarily a tourist-oriented market. Prices are inflated (especially seafood-on-sticks), and locals mostly avoid it. Worth a quick walk-through for the atmosphere and photos, but **save your appetite and money for Shinsekai** — the food is better and cheaper there
 - **10:30** Walk to **Shinsekai** (新世界) — retro Osaka. Tsutenkaku Tower area
   - **Kushikatsu** at Daruma — the original! Don't double-dip in the communal sauce
   - Wander **Janjan Yokocho** alley
@@ -284,12 +303,12 @@ This version gives Kyoto room to breathe: dawn Fushimi Inari, the Kurama-Kibune 
 
 ---
 
-## Day 14 — Thursday, Oct 2: Osaka → Tokyo (Final Night)
+## Day 14 — Friday, Oct 2: Osaka → Tokyo (Final Night)
 
 **Theme: Travel back, last Tokyo evening**
 
 - **09:00** Sleep in. Late checkout if possible
-- **10:00** Any last Osaka shopping or breakfast at Kuromon Market
+- **10:00** Any last Osaka shopping or breakfast in Shinsekai
 - **11:00** **Shinkansen from Shin-Osaka to Tokyo** (Hikari, ~2h40m, ~¥13,870 pp)
 - **14:00** Arrive Tokyo. Check into hotel near Akasaka or near Haneda for convenience
 - **15:00** Free time — revisit a favorite spot, last-minute shopping in Ginza or Shinjuku
@@ -299,7 +318,7 @@ This version gives Kyoto room to breathe: dawn Fushimi Inari, the Kurama-Kibune 
 
 ---
 
-## Day 15 — Friday, Oct 3: Departure
+## Day 15 — Saturday, Oct 3: Departure
 
 - **Morning** Sleep in, leisurely checkout
 - **Afternoon** Any remaining shopping or sightseeing near the hotel
