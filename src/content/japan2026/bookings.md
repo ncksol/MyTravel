@@ -4,7 +4,7 @@
 
 | Item | Status | Notes |
 |------|--------|-------|
-| 🎂 Birthday dinner (Sep 22) | ⬜ Not booked | Sushi Miura (Akasaka) or Sushi Yoshitake (Ginza). Book as soon as trip is confirmed |
+| 🎂 Birthday dinner (Sep 22) | ⬜ Not booked | Sushi Miura (Akasaka, ¥34,000 pp) is top pick. Sushi Yoshitake (Ginza, ¥56,000+ pp) is above budget. **Book 6+ months ahead — Silver Week makes reservations much harder.** Use OMAKASE platform for Yoshitake (opens noon JST on the 15th) |
 | Ryokan — Yama no Chaya (Sep 25-26) | ⬜ Not booked | 2 nights. Only 15 rooms — book early. Request room with private rotenburo |
 
 ### 🏯 Ryokan Comparison — Full Options
@@ -28,29 +28,28 @@ Our recommended pick is **Gora Kadan** (Hakone), but here's a comprehensive comp
 - **Best town experience:** Nishimuraya (stroll between 7 bathhouses in yukata)
 
 **Note:** Our itinerary currently uses "Yama no Chaya" as placeholder. Consider upgrading to Gora Kadan or Hakone Ginyu based on availability and budget.
-| TeamLab Borderless tickets (Sep 22 or flexible) | ⬜ Not booked | Timed entry, ¥3,800 pp. Sells out in advance |
+| TeamLab Borderless tickets (Sep 22 or flexible) | ⬜ Not booked | Timed entry, ¥3,600 pp online. Dynamic pricing — book early. Strict time-slot system |
 | Kawadoko dinner in Kibune (Sep 29, if doing Kurama/Kibune) | ⬜ Not booked | Riverside platform dining. End-of-season Sept — call ahead to confirm. Try Hirobun, Kifune Club, or Ugenta |
 
 ## 📅 Book 2-4 Weeks Ahead
 
 | Item | Status | Notes |
 |------|--------|-------|
-| Tokyo hotel — Akasaka (Sep 19-24, 5 nights) | ⬜ Not booked | MIMARU Tokyo Akasaka or Hotel Mystays Premier |
+| Tokyo hotel — Akasaka (Sep 19-25, 6 nights) | ⬜ Not booked | MIMARU Tokyo Akasaka or Hotel Mystays Premier. ⚠️ Silver Week (Sep 19-23) — book early, expect higher rates |
 | Kyoto hotel (Sep 27-29, 3 nights) | ⬜ Not booked | Near Shijo-Kawaramachi |
 | Osaka hotel (Sep 30-Oct 1, 2 nights) | ⬜ Not booked | Near Namba/Dotonbori. Cross Hotel Osaka recommended |
 | Tokyo hotel — return night (Oct 2, 1 night) | ⬜ Not booked | Akasaka or near Haneda |
-| Romancecar tickets Shinjuku→Hakone-Yumoto (Sep 25) | ⬜ Not booked | ¥2,470 pp, reserved seating. Book for window seats |
-| Romancecar tickets Hakone-Yumoto→Odawara (Sep 27) | ⬜ Not booked | Short leg, ~15 min |
-| Shibuya Sky tickets (Sep 21) | ⬜ Not booked | ¥2,000 pp, book online |
+| Romancecar tickets Shinjuku→Hakone-Yumoto (Sep 25) | ⬜ Not booked | ¥2,470 pp (one way only — returning via Odawara Shinkansen). Book for window seats |
+| Shibuya Sky tickets (Sep 21) | ⬜ Not booked | ¥2,700 pp (online, before 15:00) / ¥3,400 (after 15:00). Timed entry — book online |
 
 ## 📝 Book 1 Week Ahead / On Arrival
 
 | Item | Status | Notes |
 |------|--------|-------|
-| Shinkansen Odawara→Kyoto (Sep 27) | ⬜ Not booked | Hikari, ~¥11,000 pp. Can buy at station or SmartEX app |
-| Shinkansen Shin-Osaka→Tokyo (Oct 2) | ⬜ Not booked | Hikari, ~¥13,870 pp. SmartEX app or station |
+| Shinkansen Odawara→Kyoto (Sep 27) | ⬜ Not booked | Hikari, ~¥12,300 pp reserved. Book via SmartEX app. ⚠️ Oversized luggage (>160cm) requires special seat reservation |
+| Shinkansen Shin-Osaka→Tokyo (Oct 2) | ⬜ Not booked | Hikari, ~¥14,400 pp reserved. SmartEX app. ⚠️ Same oversized luggage rule applies |
 | Luggage forwarding (takkyubin) — Tokyo→Kyoto hotel | ⬜ Not booked | Send day before departure from Hakone. ~¥2,000 per bag |
-| Hakone Freepass (Sep 26) | ⬜ Not booked | ¥6,100 pp for loop (ropeway, cruise, bus) |
+| Hakone Freepass (Sep 26) | ⬜ Not booked | ¥6,000 pp (Odawara version) for loop (ropeway, cruise, bus). Buy at Hakone-Yumoto or Odawara station |
 
 ## 📱 Pre-Trip Setup
 
@@ -62,4 +61,3 @@ Our recommended pick is **Gora Kadan** (Hakone), but here's a comprehensive comp
 | SmartEX app | ⬜ Not done | For booking Shinkansen tickets with English interface |
 | Tableall or Pocket Concierge account | ⬜ Not done | For restaurant reservations in English |
 | Download Tabelog app | ⬜ Not done | Japan's trusted restaurant reviews. 3.5+ = good, 3.7+ = excellent |
-| Set up PayPay | ⬜ Not done | Japan's dominant mobile payment. Many small restaurants accept cash or PayPay only |

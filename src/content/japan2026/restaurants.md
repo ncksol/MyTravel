@@ -6,10 +6,10 @@
 |-----------|------|----------|-------|-------|
 | **Sushi Miura** ⭐ | Akasaka | ¥34,000 | Omakase sushi | 4.9★ Google, seasonal, steps from hotel. Top pick for convenience + quality |
 | **Nogizaka Shin** | Akasaka/Roppongi | ¥25,000-35,000 | Kaiseki-fusion | Paris/Kyoto-trained chef, sake pairings, theatrical |
-| **Sushi Yoshitake** | Ginza | ¥25,000-35,000 | Omakase sushi | 3 Michelin stars. Book at noon on the 15th, 1 month before |
+| **Sushi Yoshitake** | Ginza | ¥56,000+ | Omakase sushi | Michelin-starred (status subject to annual review). Book via OMAKASE platform at noon JST on the 15th of each month. ⚠️ Significantly above budget |
 | **Sushi Ryusuke** | Ginza | ¥44,000 | Omakase sushi | 7 seats, innovative (truffle, caviar). Michelin-starred |
 
-**Booking tips:** Reserve 1-3 months ahead. Mention the birthday. Use hotel concierge if available, or try Tableall/Pocket Concierge for English bookings.
+**Booking tips:** Reserve 6+ months ahead during Silver Week (Sep 19-23 are national holidays). Mention the birthday. Use hotel concierge if available, or try Tableall/Pocket Concierge for English bookings. **Bar High Five** (Ginza) does NOT take reservations — walk-in only since 2015.
 
 ---
 
@@ -76,7 +76,7 @@
 ### Markets
 | Market | What to Try |
 |--------|------------|
-| **Kuromon Market** | Sashimi, wagyu skewers, tempura, seasonal fruit |
+| **Kuromon Market** | Walk-through for atmosphere and photos only — prices are heavily inflated for tourists. Save appetite for Shinsekai |
 | **Janjan Yokocho** (Shinsekai) | Kushikatsu bars, retro atmosphere |
 
 ### Drinks

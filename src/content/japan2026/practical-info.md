@@ -90,7 +90,7 @@
 | **Suica app / Apple Wallet** | IC card on your phone for all transit and konbini payments | YES (iPhone) |
 | **SmartEX** | Book Shinkansen tickets online with English interface. Reserve specific seats | YES |
 | **Tabelog** | Japan's trusted restaurant review site (more reliable than Google reviews). 3.5+ = good, 3.7+ = excellent | Highly recommended |
-| **PayPay** | Japan's dominant mobile payment. Many small restaurants accept only cash or PayPay. Can set up with foreign credit cards | Worth trying |
+| **PayPay** | Japan's dominant mobile payment, but **not practical for tourists** — registration requires Japanese identity documents (MyNumber card, driver's licence, or residence card). Rely on cash, IC cards, and international credit cards instead | Skip |
 | **Navitime** | Alternative transit navigation. Sometimes better than Google for local trains | Optional |
 | **XE Currency** | Quick currency conversion | Helpful |
 
@@ -122,6 +122,15 @@ Beyond keeping quiet:
 - **Let passengers exit first** before boarding
 - **Backpacks:** Take off large backpacks and hold them low or place on luggage rack
 - **Priority seats** (marked in different color at end of each car): yield to elderly, pregnant, disabled, small children
+
+### 🧳 Shinkansen Oversized Baggage Rule
+
+On the Tokaido–Sanyo Shinkansen (Tokyo ↔ Kyoto ↔ Osaka):
+- Bags exceeding **160cm total dimensions** (length + width + height) must be stored in an **"oversized baggage area"** at the back of designated cars
+- You must **reserve a seat with oversized baggage** when booking your ticket (via SmartEX app or at the station)
+- There is **no extra charge** for the oversized area — you just need to reserve the right seat type
+- Standard carry-on suitcases (~157cm) usually fit under the limit, but **measure yours before travelling**
+- Bringing oversized baggage without a reservation may result in a ¥1,000 fee
 
 ---
 

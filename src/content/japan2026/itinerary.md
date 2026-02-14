@@ -4,12 +4,12 @@
 
 | Dates | Location | Nights | Accommodation |
 |-------|----------|--------|---------------|
-| Sep 19-24 | Tokyo (Akasaka) | 5 | MIMARU Tokyo Akasaka or Hotel Mystays Premier Akasaka |
+| Sep 19-25 | Tokyo (Akasaka) | 6 | MIMARU Tokyo Akasaka or Hotel Mystays Premier Akasaka |
 | Sep 25-26 | Hakone | 2 | Yama no Chaya (luxury ryokan) |
 | Sep 27-29 | Kyoto (Downtown/Kawaramachi) | 3 | Cross-hotel style mid-range near Shijo-Kawaramachi |
 | Sep 30-Oct 1 | Osaka (Namba) | 2 | Cross Hotel Osaka or similar near Dotonbori |
 | Oct 2 | Tokyo (Akasaka) | 1 | Same as first stay or nearby budget option |
-| **Total** | | **13 nights** | |
+| **Total** | | **14 nights** | |
 
 ---
 
@@ -58,7 +58,7 @@
 - **07:30** Early morning visit to **Meiji Shrine** (明治神宮) — serene forest walk. On this national holiday, even early morning will have more visitors than usual, but the vast forest grounds absorb crowds well. Aim to arrive by 7:30 for the quietest experience
 - **09:30** Walk through **Harajuku** — Takeshita Street for people-watching, Omotesando for architecture and upscale shopping
 - **10:30** Coffee break at a Harajuku/Omotesando café
-- **11:00** Walk to **Shibuya** — see the famous **Shibuya Crossing** from the Shibuya Sky observation deck (¥2,000, book online) or the Starbucks overlooking the crossing
+- **11:00** Walk to **Shibuya** — see the famous **Shibuya Crossing** from the Shibuya Sky observation deck (¥2,700 online before 15:00 / ¥3,400 after 15:00, book online — timed entry) or the Starbucks overlooking the crossing
 - **12:00** Lunch: **Shibuya food options** — try a tonkatsu (pork cutlet) shop like Maisen in Omotesando
 - **13:30** Explore **Shimokitazawa** (下北沢) — 3 min train from Shibuya. Vintage shops, record stores, quirky cafes, Bonus Track courtyard
 - **15:30** Return to Shibuya for more exploring or head to **Daikanyama/Nakameguro** — stylish bookstores (Tsutaya), canal walk
@@ -77,13 +77,13 @@
 - **11:00** Walk to nearby **Hamarikyu Gardens** (浜離宮恩賜庭園, ¥300) — a stunning Edo-era garden with a tea house on a pond, framed by modern skyscrapers. Have matcha and wagashi at the **Nakajima no Ochaya** tea house on the water. A peaceful birthday morning moment
 - **12:30** Walk to **Ginza** (~15 min from Hamarikyu) — window shop the department stores, visit the Sony showroom or Ginza Six
 - **13:30** **Depachika experience** at Mitsukoshi Ginza B1 — sample wagashi, buy bento for lunch, try everything
-- **15:00** Free time — shopping, rest, or visit **TeamLab Borderless** (book tickets in advance, ¥3,800). Use this time to recharge before dinner
+- **15:00** Free time — shopping, rest, or visit **TeamLab Borderless** (book timed-entry tickets in advance, ¥3,600 online). Use this time to recharge before dinner
 - **18:30** 🎂 **BIRTHDAY DINNER** — High-end omakase
   - **Top pick: Sushi Miura (Akasaka)** — ¥34,000 pp, seasonal sushi, 4.9★, right in your neighborhood
   - **Alt: Nogizaka Shin** — kaiseki-style omakase with sake pairings, Akasaka/Roppongi border
-  - **Alt: Sushi Yoshitake (Ginza)** — 3 Michelin stars, ¥25,000-35,000 pp
+  - **Alt: Sushi Yoshitake (Ginza)** — Michelin-starred, ¥56,000+ pp (significantly above budget — consider only if splurging). Book via OMAKASE platform at noon JST on the 15th of each month
   - ⚠️ **Book 6+ months ahead!** This is Silver Week — premium restaurants are booked months in advance by domestic diners. Mention birthday for special touches. Start trying to reserve as soon as bookings open
-- **21:00** Birthday drinks at a cocktail bar — try **Bar High Five** (Ginza, world-famous) or a Roppongi bar
+- **21:00** Birthday drinks at a cocktail bar — try **Bar High Five** (Ginza, world-famous — walk-in only, no reservations since 2015; call ahead to check for seats) or a Roppongi bar
 
 ---
 
@@ -162,7 +162,7 @@
 **Theme: Hakone sightseeing loop, second ryokan night**
 
 - **08:00** Ryokan breakfast — traditional Japanese breakfast (rice, miso, grilled fish, pickles, egg)
-- **09:30** Begin the **Hakone Loop** (consider Hakone Freepass, ~¥6,100):
+- **09:30** Begin the **Hakone Loop** (buy **Hakone Freepass from Odawara**, ¥6,000 pp — covers ropeway, cruise, buses within Hakone):
   - Bus/train to **Hakone Open-Air Museum** (¥1,600) — Picasso collection, stunning outdoor sculptures
   - **Hakone Ropeway** to Owakudani — volcanic valley, try black eggs (said to add 7 years to your life)
   - **Lake Ashi Cruise** — if clear weather, views of Mt. Fuji
@@ -179,12 +179,12 @@
 **Theme: Travel day + first Kyoto evening**
 
 - **08:00** Final ryokan breakfast
-- **09:30** Check out. Take Romancecar back to Odawara (~15 min from Hakone-Yumoto)
-- **10:30** **Shinkansen from Odawara to Kyoto** (Hikari, ~2 hours, ~¥11,000 pp). JR Pass NOT needed — buying individual tickets is cheaper for this route
+- **09:30** Check out. Take local Hakone Tozan/Odakyu train to Odawara (~15 min, ~¥310 pp)
+- **10:30** **Shinkansen from Odawara to Kyoto** (Hikari, ~2 hours, ~¥12,300 pp reserved). Book reserved seats via SmartEX — recommended for comfort and luggage. ⚠️ If your suitcase exceeds 160cm total dimensions, you must reserve an "oversized baggage" seat online
 - **12:30** Arrive Kyoto Station
 - **13:00** Lunch near Kyoto Station — try **Kyoto ramen** at Ramen Street (underground floor) or head to your hotel area
 - **14:00** Check into hotel near **Shijo-Kawaramachi** (downtown Kyoto)
-- **15:00** Afternoon walk: **Nishiki Market** (錦市場) — "Kyoto's Kitchen." Graze on pickles, mochi, matcha treats, fresh tofu, grilled seafood
+- **15:00** Afternoon walk: **Nishiki Market** (錦市場) — "Kyoto's Kitchen." Graze on pickles, mochi, matcha treats, fresh tofu, grilled seafood. Note: individual stall hours vary — some close early, especially on Sundays/Wednesdays. Keep timing flexible
 - **17:00** Walk to **Pontocho Alley** (先斗町) — narrow alley along the river, scout dinner spots
 - **18:30** Dinner along Pontocho or Kiyamachi — try **obanzai** (Kyoto home-style cooking) at a small restaurant
 - **20:00** Evening stroll through **Gion** (祇園) — lantern-lit streets, possible maiko sighting
@@ -200,7 +200,7 @@
 - **09:30** Bus/train to **Kiyomizu-dera** (清水寺, ¥400) — stunning hilltop temple with city views. Walk through **Sannenzaka & Ninenzaka** historic lanes below
 - **11:00** Continue to **Kodai-ji Temple** or **Yasaka Shrine**
 - **12:00** Lunch in Gion — try **yudofu** (simmered tofu, a Kyoto specialty) at Junsei or similar
-- **13:30** Visit **Philosopher's Path** (哲学の道) — 2km canal-side walk lined with cherry trees. Quiet in late September. Stop at **Ginkaku-ji** (Silver Pavilion, ¥500) at the northern end
+- **13:30** Visit **Philosopher's Path** (哲学の道) — 2km canal-side walk lined with cherry trees. Quiet in late September. Stop at **Ginkaku-ji** (Silver Pavilion, ¥1,000 — price doubles from April 2026) at the northern end
 - **15:30** Visit **Nanzen-ji Temple** — the aqueduct here is stunning and free to visit
 - **17:00** Return to hotel, rest
 - **18:30** Dinner: **Mid-range kaiseki** experience in Gion — ¥5,000-8,000 pp gets you an excellent multi-course meal
@@ -271,7 +271,7 @@ This version gives Kyoto room to breathe: dawn Fushimi Inari, the Kurama-Kibune 
 - **08:00** Check out of Kyoto hotel
 - **08:30** Train to **Nara** (~45 min from Kyoto, ¥720 by JR or Kintetsu)
 - **09:30** **Nara Park** — meet the famous bowing deer (buy deer crackers, ¥200)
-- **10:00** **Todai-ji Temple** (東大寺, ¥600) — houses the giant bronze Buddha, absolutely jaw-dropping
+- **10:00** **Todai-ji Temple** (東大寺, ¥800) — houses the giant bronze Buddha, absolutely jaw-dropping
 - **11:00** Walk through **Kasuga Taisha** shrine — thousands of stone and bronze lanterns
 - **12:00** Lunch in Nara — try kakinoha-zushi (persimmon leaf sushi) or wander Higashimuki shopping street
 - **13:30** Train from Nara to **Osaka Namba** (~40 min, ¥570)
@@ -294,7 +294,7 @@ This version gives Kyoto room to breathe: dawn Fushimi Inari, the Kurama-Kibune 
   - **Kushikatsu** at Daruma — the original! Don't double-dip in the communal sauce
   - Wander **Janjan Yokocho** alley
 - **12:00** Lunch: More kushikatsu, or try a local ramen shop in Shinsekai
-- **13:30** Visit **Osaka Castle** (大阪城, ¥600) — impressive exterior and surrounding park. Interior is a museum (optional)
+- **13:30** Visit **Osaka Castle** (大阪城, ¥1,200 — price doubled April 2025, now includes Toyotomi Stone Wall Museum) — impressive exterior and surrounding park. Interior is a museum (optional)
 - **15:00** Explore **Nakazakicho** (中崎町) — Osaka's hipster neighborhood. Independent cafes, vintage shops, retro buildings. Very non-touristy
 - **16:30** Walk to **Tenjinbashi-suji** — Japan's longest shopping street. Browse, snack, people-watch
 - **18:00** Return to Namba area
@@ -309,7 +309,7 @@ This version gives Kyoto room to breathe: dawn Fushimi Inari, the Kurama-Kibune 
 
 - **09:00** Sleep in. Late checkout if possible
 - **10:00** Any last Osaka shopping or breakfast in Shinsekai
-- **11:00** **Shinkansen from Shin-Osaka to Tokyo** (Hikari, ~2h40m, ~¥13,870 pp)
+- **11:00** **Shinkansen from Shin-Osaka to Tokyo** (Hikari, ~2h40m, ~¥14,400 pp reserved). ⚠️ Oversized luggage (>160cm total dimensions) requires reserving a special seat — book via SmartEX
 - **14:00** Arrive Tokyo. Check into hotel near Akasaka or near Haneda for convenience
 - **15:00** Free time — revisit a favorite spot, last-minute shopping in Ginza or Shinjuku
 - **17:00** Pack and prepare for departure
@@ -334,14 +334,17 @@ This version gives Kyoto room to breathe: dawn Fushimi Inari, the Kurama-Kibune 
 |-------|--------|------|-------------------|
 | HND → Akasaka | Keikyu + Metro | ~50 min | ~¥700 |
 | Tokyo → Hakone | Romancecar (Shinjuku) | 85 min | ¥2,470 |
-| Hakone → Kyoto | Romancecar to Odawara + Shinkansen | ~2.5 hrs | ~¥12,500 |
+| Hakone → Odawara | Hakone Tozan/Odakyu train | ~15 min | ~¥310 |
+| Odawara → Kyoto | Shinkansen Hikari (reserved) | ~2 hrs | ¥12,300 |
 | Kyoto → Nara | JR or Kintetsu | 45 min | ¥720 |
 | Nara → Osaka | Kintetsu to Namba | 40 min | ¥570 |
-| Osaka → Tokyo | Shinkansen (Shin-Osaka) | 2h40m | ¥13,870 |
+| Osaka → Tokyo | Shinkansen Hikari (reserved) | 2h40m | ¥14,400 |
 | Akasaka → HND | Metro + Monorail | ~50 min | ~¥700 |
 
-**Total intercity transit for 2: ~¥61,500**
+**Total intercity transit for 2: ~¥63,340**
+
+> ⚠️ **Oversized baggage rule:** On the Tokaido Shinkansen, bags exceeding 160cm total dimensions (length + width + height) require reserving a seat with "oversized baggage area." Book via SmartEX app. Standard suitcases (~157cm) usually fit under the limit, but measure yours before travelling.
 
 ## JR Pass Verdict: ❌ Skip It
 
-Individual tickets total ~¥30,750 per person for all intercity legs. A 7-day JR Pass costs ¥50,000 and wouldn't cover Tokyo→Hakone (Odakyu, not JR). Individual tickets save ~¥19,000 per person.
+Individual tickets total ~¥31,670 per person for all intercity legs. A 7-day JR Pass costs ¥50,000 and wouldn't cover Tokyo→Hakone (Odakyu, not JR). Individual tickets save ~¥18,330 per person.
