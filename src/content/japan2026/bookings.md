@@ -35,10 +35,10 @@ Our recommended pick is **Gora Kadan** (Hakone), but here's a comprehensive comp
 
 | Item | Status | Notes |
 |------|--------|-------|
-| Tokyo hotel — Akasaka (Sep 19-25, 6 nights) | ⬜ Not booked | MIMARU Tokyo Akasaka or Hotel Mystays Premier. ⚠️ Silver Week (Sep 19-23) — book early, expect higher rates |
+| Tokyo hotel — Akasaka (Sep 19-25, 6 nights) | ⬜ Not booked | **Hotel Monterey Akasaka** (8.5/10 Booking.com, ~£64-88/night pre-Genius). Backup: Hotel Hillarys Akasaka (8.2/10, ~£48-56/night, has public bath). ⚠️ Silver Week (Sep 19-23) — book as soon as Sep 2026 opens (~Mar-Jun 2026), expect higher rates. Genius L3 discount helps offset |
 | Kyoto hotel (Sep 27-29, 3 nights) | ⬜ Not booked | Near Shijo-Kawaramachi |
 | Osaka hotel (Sep 30-Oct 1, 2 nights) | ⬜ Not booked | Near Namba/Dotonbori. Cross Hotel Osaka recommended |
-| Tokyo hotel — return night (Oct 2, 1 night) | ⬜ Not booked | Akasaka or near Haneda |
+| Tokyo hotel — return night (Oct 2, 1 night) | ⬜ Not booked | Same Hotel Monterey Akasaka if available, or budget option near Haneda |
 | Romancecar tickets Shinjuku→Hakone-Yumoto (Sep 25) | ⬜ Not booked | ¥2,470 pp (one way only — returning via Odawara Shinkansen). Book for window seats |
 | Shibuya Sky tickets (Sep 21) | ⬜ Not booked | ¥2,700 pp (online, before 15:00) / ¥3,400 (after 15:00). Timed entry — book online |
 

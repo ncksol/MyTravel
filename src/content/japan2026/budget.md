@@ -8,7 +8,7 @@
 
 | Location | Nights | Est. Cost/Night (2 ppl) | Subtotal |
 |----------|--------|------------------------|----------|
-| Tokyo Akasaka (mid-range hotel) | 6 | ¥18,000 · £95 | ¥108,000 · £568 |
+| Tokyo — Hotel Monterey Akasaka | 6 | ¥18,000 · £95 | ¥108,000 · £568 |
 | Hakone — Yama no Chaya (ryokan, incl. dinner+breakfast) | 2 | ¥80,000 · £421 | ¥160,000 · £842 |
 | Kyoto (mid-range hotel) | 3 | ¥16,000 · £84 | ¥48,000 · £253 |
 | Osaka (mid-range hotel) | 2 | ¥15,000 · £79 | ¥30,000 · £158 |

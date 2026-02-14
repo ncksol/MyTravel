@@ -4,7 +4,7 @@
 
 | Dates | Location | Nights | Accommodation |
 |-------|----------|--------|---------------|
-| Sep 19-25 | Tokyo (Akasaka) | 6 | MIMARU Tokyo Akasaka or Hotel Mystays Premier Akasaka |
+| Sep 19-25 | Tokyo (Akasaka) | 6 | Hotel Monterey Akasaka (backup: Hotel Hillarys Akasaka) |
 | Sep 25-26 | Hakone | 2 | Yama no Chaya (luxury ryokan) |
 | Sep 27-29 | Kyoto (Downtown/Kawaramachi) | 3 | Cross-hotel style mid-range near Shijo-Kawaramachi |
 | Sep 30-Oct 1 | Osaka (Namba) | 2 | Cross Hotel Osaka or similar near Dotonbori |
@@ -310,7 +310,7 @@ This version gives Kyoto room to breathe: dawn Fushimi Inari, the Kurama-Kibune 
 - **09:00** Sleep in. Late checkout if possible
 - **10:00** Any last Osaka shopping or breakfast in Shinsekai
 - **11:00** **Shinkansen from Shin-Osaka to Tokyo** (Hikari, ~2h40m, ~¥14,400 pp reserved). ⚠️ Oversized luggage (>160cm total dimensions) requires reserving a special seat — book via SmartEX
-- **14:00** Arrive Tokyo. Check into hotel near Akasaka or near Haneda for convenience
+- **14:00** Arrive Tokyo. Check into hotel in Akasaka (Hotel Monterey or nearby)
 - **15:00** Free time — revisit a favorite spot, last-minute shopping in Ginza or Shinjuku
 - **17:00** Pack and prepare for departure
 - **19:00** Final dinner in Tokyo — revisit a favorite, or try something new. Suggestion: **Yurakucho yakitori** under the train tracks for a perfect Tokyo farewell
