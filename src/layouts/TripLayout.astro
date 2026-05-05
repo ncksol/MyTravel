@@ -1,4 +1,11 @@
 ---
+export interface NavItem {
+  href: string;
+  label: string;
+  id: string;
+  stamp: string;
+}
+
 interface Props {
   title: string;
   activeNav?: string;
@@ -6,6 +13,7 @@ interface Props {
   tripTitle?: string;
   tripSubtitle?: string;
   tripFooter?: string;
+  navItems?: NavItem[];
 }
 
 const {
@@ -15,21 +23,24 @@ const {
   tripTitle = 'Japan 2026',
   tripSubtitle = 'Tokyo & Kyoto',
   tripFooter = 'japan 2026 · built for travelers',
+  navItems: navItemsProp,
 } = Astro.props;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const prefix = `${base}${tripPrefix}`;
 
-const navItems = [
-  { href: `${prefix}`, label: 'Overview', id: 'home', kanji: '概要' },
-  { href: `${prefix}/itinerary`, label: 'Itinerary', id: 'itinerary', kanji: '日程' },
-  { href: `${prefix}/restaurants`, label: 'Restaurants', id: 'restaurants', kanji: '食事' },
-  { href: `${prefix}/neighborhoods`, label: 'Neighborhoods', id: 'neighborhoods', kanji: '街区' },
-  { href: `${prefix}/bookings`, label: 'Bookings', id: 'bookings', kanji: '予約' },
-  { href: `${prefix}/hotels`, label: 'Hotels', id: 'hotels', kanji: '宿泊' },
-  { href: `${prefix}/budget`, label: 'Budget', id: 'budget', kanji: '予算' },
-  { href: `${prefix}/practical-info`, label: 'Practical Info', id: 'practical-info', kanji: '情報' },
+const defaultNavItems: NavItem[] = [
+  { href: `${prefix}`, label: 'Overview', id: 'home', stamp: '概要' },
+  { href: `${prefix}/itinerary`, label: 'Itinerary', id: 'itinerary', stamp: '日程' },
+  { href: `${prefix}/restaurants`, label: 'Restaurants', id: 'restaurants', stamp: '食事' },
+  { href: `${prefix}/neighborhoods`, label: 'Neighborhoods', id: 'neighborhoods', stamp: '街区' },
+  { href: `${prefix}/bookings`, label: 'Bookings', id: 'bookings', stamp: '予約' },
+  { href: `${prefix}/hotels`, label: 'Hotels', id: 'hotels', stamp: '宿泊' },
+  { href: `${prefix}/budget`, label: 'Budget', id: 'budget', stamp: '予算' },
+  { href: `${prefix}/practical-info`, label: 'Practical Info', id: 'practical-info', stamp: '情報' },
 ];
+
+const navItems = navItemsProp ?? defaultNavItems;
 
 const currentNav = navItems.find(item => item.id === activeNav);
 ---
@@ -69,7 +80,7 @@ const currentNav = navItems.find(item => item.id === activeNav);
         {currentNav && activeNav !== 'home' && (
           <div class="section-header">
             <h2>{currentNav.label}</h2>
-            <span class="kanji-stamp">{currentNav.kanji}</span>
+            <span class="kanji-stamp nav-stamp">{currentNav.stamp}</span>
           </div>
         )}
 
