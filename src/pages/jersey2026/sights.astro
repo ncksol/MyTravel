@@ -1,0 +1,25 @@
+---
+import TripLayout from '../../layouts/TripLayout.astro';
+import { render, getEntry } from 'astro:content';
+import { jerseyNavItems } from '../../lib/jersey-nav';
+
+const entry = await getEntry('jersey2026', 'sights');
+const { Content } = await render(entry!);
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const prefix = `${base}/jersey2026`;
+---
+
+<TripLayout
+  title="Sights"
+  activeNav="sights"
+  tripPrefix="/jersey2026"
+  tripTitle="Jersey 2026"
+  tripSubtitle="Channel Islands"
+  tripFooter="jersey 2026 · channel islands · 22-25 may"
+  navItems={jerseyNavItems(prefix)}
+>
+  <div class="content-card prose page-sights">
+    <Content />
+  </div>
+</TripLayout>
